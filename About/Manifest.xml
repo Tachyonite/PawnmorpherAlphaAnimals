@@ -1,8 +1,10 @@
 ﻿<Manifest>
-	<identifier>Pawnmorpher</identifier>
-	<version>1.8.2</version>
+	<identifier>PawnmorpherAlphaAnimals</identifier>
+	<version>1.0.0</version>
 	<dependencies>
 		<li>erdelf.humanoidalienraces</li>
+		<li>sarg.alphaanimals</li>
+		<li>tachyonite.pawnmorpherpublic</li>
 		<li>unlimitedhugs.hugslib</li>
 	</dependencies>
 	<incompatibleWith>

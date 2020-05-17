@@ -504,7 +504,6 @@
           </li>
         </tools>
 		<comps>
-
 			<li Class="AlphaBehavioursAndEvents.CompProperties_CorpseDecayer">
 				<radius>5</radius>
 				<tickInterval>500</tickInterval>
@@ -519,7 +518,6 @@
 				<tickInterval>500</tickInterval>
 				<thoughtDef>AA_Disgust</thoughtDef>
 			</li>
-
 		</comps>
         <race>
           <thinkTreeMain>Humanlike</thinkTreeMain>
@@ -566,7 +564,8 @@
                             <layerInvert>false</layerInvert>
                             <drawnInBed>false</drawnInBed>
                             <hediffGraphics>
-                                <EtherSnakeTail>Parts/Cobra/Cobra_Tail</EtherSnakeTail>
+                                <EtherHelixienTail>Parts/Helixien/Helixien_Tail</EtherHelixienTail>
+								<EtherSnakeTail>Parts/Cobra/Cobra_Tail</EtherSnakeTail>
                                 <EtherIguanaTail>Parts/iguanaface/iguanatail</EtherIguanaTail>
                             </hediffGraphics>
                             <layerOffset>-0.29</layerOffset>
