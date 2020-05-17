@@ -1,0 +1,32 @@
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Schemas/MorphDef.xsd">
+	<Pawnmorph.MorphDef>
+		<defName>HelixienMorph</defName>
+		<label>helixienmorph</label>
+		<description>Alpacamorphs are rather woolly herbivorous humanoids who often have hooves. They produce good amounts of soft wool, which they can shave off themselves... and they don't need your help, thank you.</description>
+		<race>AA_Helixien</race>
+		<classification>Camelid</classification>
+		<categories>
+			<li>Temperate</li>
+			<li>Tropical</li>
+			<li>Farm</li>
+			<li>Production</li>
+		</categories>
+		<fullTransformation>PawnmorphHelixienTF</fullTransformation>
+		<partialTransformation>PawnmorphHelixienTFPartial</partialTransformation>
+		<raceSettings>
+			<graphicsSettings>
+				<skinColorOverride>(99,85,74)</skinColorOverride>
+				<hairColorOverride>(0,0,0,0)</hairColorOverride>
+			</graphicsSettings>
+			<explicitHybridRace>SnakeMorph</explicitHybridRace>
+			<transferHumanBodyAddons>true</transferHumanBodyAddons>
+			<requiredMutations>
+				<li>EtherSnakeTail</li>
+			</requiredMutations>
+		</raceSettings>
+		<transformSettings>
+			<transformationMemory>HelixienTransformationMemory</transformationMemory>
+			<revertedMemory>HelixienRevertedMemory</revertedMemory>
+		</transformSettings>
+	</Pawnmorph.MorphDef>
+</Defs>

@@ -16,8 +16,8 @@
 	</TaleDef>
 	
 	<TaleDef ParentName="MuzzleTaleBase">
-		<defName>GrewAlpacaMuzzle</defName>
-		<label>grew alpaca muzzle</label>
+		<defName>GrewHelixienFace</defName>
+		<label>grew helixien face</label>
 		<rulePack>
 			<rulesStrings>
 				<li>tale_noun->[PAWN_nameDef] grew an alpaca muzzle</li>

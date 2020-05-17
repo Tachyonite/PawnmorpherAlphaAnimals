@@ -1,8 +1,8 @@
 <Defs>
 	<HediffDef ParentName="NewHerbavourMorphTfBase">
-		<defName>PawnmorphAlpacaTF</defName>
-		<label>alpacamorph</label>
-		<description>This person has mechanites in their blood that are slowly mutating them into a alpacamorph. Keep an eye on them, as leaving the mechanites unattended could lead to them becoming far more alpaca than human.</description>
+		<defName>PawnmorphHelixienTF</defName>
+		<label>helixienmorph</label>
+		<description>This person has mechanites in their blood that are slowly mutating them into a helixenmorph. Keep an eye on them, as leaving the mechanites unattended could lead to them becoming far more slug than human.</description>
 		<stages>
 			<li Class="Pawnmorph.Hediffs.FullTransformationStage">
 				<label>reeling</label>
@@ -15,9 +15,9 @@
 					</li>
 				</capMods>
 				<pawnkinds>
-					<li>Alpaca</li>
+					<li>AA_Helixien</li>
 				</pawnkinds>
-				<transformationTale>TransformationCanid</transformationTale>
+				<transformationTale>TransformationMisc</transformationTale>
 			</li>
 			<li Class="Pawnmorph.Hediffs.TransformationStage">
 				<label>transforming</label>
