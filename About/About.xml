@@ -1,0 +1,39 @@
+<ModMetaData>
+	<name>Pawnmorpher: Alpha Animals</name>
+	<author>Mic</author>
+	<supportedVersions>
+		<li>1.0</li>
+		<li>1.1</li>
+	</supportedVersions>
+	<description>
+	
+	An extension for Pawnmorpher that adds morphs and mutations from Alpha Animals, for even more horrific mad science!
+
+	</description>
+	<packageId>tachyonite.pawnmorpheralphaanimals</packageId>
+	<modDependencies>
+		<li>
+			<packageId>erdelf.HumanoidAlienRaces</packageId>
+			<displayName>Humanoid Alien Races 2.0</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>sarg.alphaanimals</packageId>
+			<displayName>Alpha Animals</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>tachyonite.pawnmorpher</packageId>
+			<displayName>Pawnmorpher</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/1786466855</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadBefore>
+	</loadBefore>
+	<loadAfter>
+		<li>erdelf.HumanoidAlienRaces</li>
+		<li>sarg.alphaanimals</li>
+		<li>tachyonite.pawnmorpher</li>
+		<li>PeteTimesSix.CompactHediffs</li>
+	</loadAfter>
+</ModMetaData>
