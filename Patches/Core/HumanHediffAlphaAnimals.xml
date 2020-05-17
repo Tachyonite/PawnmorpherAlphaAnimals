@@ -42,7 +42,7 @@
 							<Average_Wide>(-0.01,0.005)</Average_Wide>
 							<Average_Pointy>(0,0.005)</Average_Pointy>
 						</crownTypes>
-					</north />
+					</north >
 					<east>
 						<bodyTypes>
 							<Male>(-0.46,0.56)</Male>
