@@ -436,108 +436,106 @@
     <ThingDef Class="AlienRace.ThingDef_AlienRace" ParentName="HumanRace">
         <defName>HelixienMorph</defName>
         <label>slugperson</label>
-        <description>A snakelike human, with a large and powerful tail that has replaced its legs. This allows for viper-quick movement, and while you might expect them to lack arms, most cobramorphs do retain their arms. In many respects, they are a mutagenic-born mythological naga.</description>
+        <description>TODO</description>
         <statBases>
-          <MarketValue>1750</MarketValue>
-          <MoveSpeed>4.6</MoveSpeed>
-          <Flammability>1.0</Flammability>
-          <ComfyTemperatureMin>16</ComfyTemperatureMin>
-          <ComfyTemperatureMax>26</ComfyTemperatureMax>
-          <LeatherAmount>0</LeatherAmount>
-          <RoyalFavorValue>4</RoyalFavorValue>
+            <MarketValue>1750</MarketValue>
+            <MoveSpeed>4.6</MoveSpeed>
+            <Flammability>1.0</Flammability>
+            <ComfyTemperatureMin>16</ComfyTemperatureMin>
+            <ComfyTemperatureMax>26</ComfyTemperatureMax>
+            <LeatherAmount>0</LeatherAmount>
+            <RoyalFavorValue>4</RoyalFavorValue>
         </statBases>
         <tools>
-          <li>
-            <label>left fist</label>
-            <capacities>
-              <li>Blunt</li>
-            </capacities>
-            <power>8.2</power>
-            <cooldownTime>2</cooldownTime>
-            <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
-            <surpriseAttack>
-              <extraMeleeDamages>
-                <li>
-                  <def>Stun</def>
-                  <amount>14</amount>
-                </li>
-              </extraMeleeDamages>
-            </surpriseAttack>
-          </li>
-          <li>
-            <label>right fist</label>
-            <capacities>
-              <li>Blunt</li>
-            </capacities>
-            <power>8.2</power>
-            <cooldownTime>2</cooldownTime>
-            <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
-            <surpriseAttack>
-              <extraMeleeDamages>
-                <li>
-                  <def>Stun</def>
-                  <amount>14</amount>
-                </li>
-              </extraMeleeDamages>
-            </surpriseAttack>
-          </li>
-          <li>
-            <label>teeth</label>
-            <capacities>
-              <li>Bite</li>
-            </capacities>
-            <power>8.2</power>
-            <cooldownTime>2</cooldownTime>
-            <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-            <chanceFactor>0.07</chanceFactor>
-          </li>
-          <li>
-            <label>head</label>
-            <capacities>
-              <li>Blunt</li>
-            </capacities>
-            <power>5</power>
-            <cooldownTime>2</cooldownTime>
-            <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-            <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
-            <chanceFactor>0.2</chanceFactor>
-          </li>
+            <li>
+                <label>left fist</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>8.2</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+                <surpriseAttack>
+                    <extraMeleeDamages>
+                        <li>
+                            <def>Stun</def>
+                            <amount>14</amount>
+                        </li>
+                    </extraMeleeDamages>
+                </surpriseAttack>
+            </li>
+            <li>
+                <label>right fist</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>8.2</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+                <surpriseAttack>
+                    <extraMeleeDamages>
+                        <li>
+                            <def>Stun</def>
+                            <amount>14</amount>
+                        </li>
+                    </extraMeleeDamages>
+                </surpriseAttack>
+            </li>
+            <li>
+                <label>teeth</label>
+                <capacities>
+                    <li>Bite</li>
+                </capacities>
+                <power>8.2</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+                <chanceFactor>0.07</chanceFactor>
+            </li>
+            <li>
+                <label>head</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>5</power>
+                <cooldownTime>2</cooldownTime>
+                <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+                <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+                <chanceFactor>0.2</chanceFactor>
+            </li>
         </tools>
-		<comps>
-			<li Class="AlphaBehavioursAndEvents.CompProperties_CorpseDecayer">
-				<radius>5</radius>
-				<tickInterval>500</tickInterval>
-				<decayOnHitPoints>2</decayOnHitPoints>
-				<nutritionGained>0.1</nutritionGained>
-				<corpseSound>AA_HelixienCorpseSound</corpseSound>
-
-
-			</li>
-			<li Class="AlphaBehavioursAndEvents.CompProperties_ThoughtEffecter">
-				<radius>5</radius>
-				<tickInterval>500</tickInterval>
-				<thoughtDef>AA_Disgust</thoughtDef>
-			</li>
-		</comps>
+        <comps>
+            <li Class="AlphaBehavioursAndEvents.CompProperties_CorpseDecayer">
+                <radius>5</radius>
+                <tickInterval>500</tickInterval>
+                <decayOnHitPoints>2</decayOnHitPoints>
+                <nutritionGained>0.1</nutritionGained>
+                <corpseSound>AA_HelixienCorpseSound</corpseSound>
+            </li>
+            <li Class="AlphaBehavioursAndEvents.CompProperties_ThoughtEffecter">
+                <radius>5</radius>
+                <tickInterval>500</tickInterval>
+                <thoughtDef>AA_Disgust</thoughtDef>
+            </li>
+        </comps>
         <race>
-          <thinkTreeMain>Humanlike</thinkTreeMain>
-          <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
-          <intelligence>Humanlike</intelligence>
-          <makesFootprints>true</makesFootprints>
-          <lifeExpectancy>80</lifeExpectancy>
-          <nameCategory>HumanStandard</nameCategory>
-          <body>HelixienHybridBody</body>
-          <baseBodySize>1</baseBodySize>
-          <baseHealthScale>1</baseHealthScale>
-          <foodType>OmnivoreHuman</foodType>
-          <gestationPeriodDays>45</gestationPeriodDays>
-          <meatMarketValue>0.8</meatMarketValue>
-          <manhunterOnDamageChance>0.20</manhunterOnDamageChance>
-          <manhunterOnTameFailChance>0.02</manhunterOnTameFailChance>
-    
-          <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
-          <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
-          <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+            <thinkTreeMain>Humanlike</thinkTreeMain>
+            <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+            <intelligence>Humanlike</intelligence>
+            <makesFootprints>true</makesFootprints>
+            <lifeExpectancy>80</lifeExpectancy>
+            <nameCategory>HumanStandard</nameCategory>
+            <body>HelixienHybridBody</body>
+            <baseBodySize>1</baseBodySize>
+            <baseHealthScale>1</baseHealthScale>
+            <foodType>OmnivoreHuman</foodType>
+            <gestationPeriodDays>45</gestationPeriodDays>
+            <meatMarketValue>0.8</meatMarketValue>
+            <manhunterOnDamageChance>0.20</manhunterOnDamageChance>
+            <manhunterOnTameFailChance>0.02</manhunterOnTameFailChance>
+
+            <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+            <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
+            <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
         </race>
         <alienRace>
             <generalSettings>
@@ -565,7 +563,7 @@
                             <drawnInBed>false</drawnInBed>
                             <hediffGraphics>
                                 <EtherHelixienTail>Parts/Helixien/Helixien_Tail</EtherHelixienTail>
-								<EtherSnakeTail>Parts/Cobra/Cobra_Tail</EtherSnakeTail>
+                                <EtherSnakeTail>Parts/Cobra/Cobra_Tail</EtherSnakeTail>
                                 <EtherIguanaTail>Parts/iguanaface/iguanatail</EtherIguanaTail>
                             </hediffGraphics>
                             <layerOffset>-0.29</layerOffset>
@@ -622,5 +620,5 @@
             </raceRestriction>
 
         </alienRace>
-      </ThingDef>
+    </ThingDef>
 </Defs>
