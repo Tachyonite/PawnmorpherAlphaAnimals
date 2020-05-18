@@ -6,8 +6,8 @@
 	<Pawnmorph.Hediffs.MutationDef ParentName="HelixienPart">
 		<defName>EtherHelixienFace</defName>
 		<label>slug face</label>
-		<description>A slimy, disgusting visage now makes itself apparent over the entirety of [PAWN_nameDef]'s face. With stalk eyes and weird, moving mouth bits it's certainly not good-looking.</description>
-		<mutationTale>GrewAlpacaMuzzle</mutationTale>
+		<description>A slimy, tentacular visage now makes itself apparent over the entirety of [PAWN_nameDef]'s face. With stalk eyes and weird, moving mouth bits it's quite a sight!</description>
+		<mutationTale>GrewHelixienFace</mutationTale>
 		<mutationMemory>HelixienFace</mutationMemory>
 		<blockSites>
 			<li>Jaw</li>
@@ -79,8 +79,8 @@
 	<Pawnmorph.Hediffs.MutationDef ParentName="HelixienPart">
 		<defName>EtherHelixienTail</defName>
 		<label>slug tail</label>
-		<description>A slimy tail, it feels disgusting and reeks of bile. Amazing! It's most certainly *not* satisfying.</description>
-		<mutationTale>GrewTail</mutationTale>
+		<description>A slimy tail, it feels slippery and reeks of bile. Amazing!</description>
+		<mutationTale>GrewSlugTail</mutationTale>
 		<parts>
 			<li>Tail</li>
 		</parts>
@@ -133,7 +133,7 @@
 		<stages>
 			<li Class="Pawnmorph.Hediffs.MutationStage">
 				<labelOverride>slime spots</labelOverride>
-				<description>There's a very thin layer of slime that seems to be oozing out of the pores.</description>
+				<description>There's a very thin layer of slime oozing out of the pores.</description>
 
 				<minSeverity>0</minSeverity>
 				<statOffsets>
@@ -168,6 +168,7 @@
 			</li>
 			<li Class="Pawnmorph.Hediffs.MutationStage">
 				<labelOverride>thick slime</labelOverride>
+				<description>The slime layer is so thick that blades and bullets have difficult penetrating it.</description>
 				<minSeverity>0.8</minSeverity>
 				<statOffsets>
 					<ArmorRating_Sharp>0.04</ArmorRating_Sharp>

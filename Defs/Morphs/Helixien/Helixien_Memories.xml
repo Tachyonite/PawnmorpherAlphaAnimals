@@ -57,19 +57,19 @@
         <defName>HelixienFace</defName>
         <stages>
             <li>
-                <label>Wooly snout</label>
+                <label>Slug face</label>
                 <description>Eugh, the way these eyestalks swing around makes me feel queasy.</description>
                 <visible>true</visible>
                 <baseMoodEffect>-1</baseMoodEffect>
             </li>
             <li>
-                <label>Wooly snout</label>
+                <label>Slug face</label>
                 <description>I can see forever!</description>
                 <visible>true</visible>
                 <baseMoodEffect>2</baseMoodEffect>
             </li>
             <li>
-                <label>Wooly snout</label>
+                <label>Slug face</label>
                 <description>Nobody is gonna want to kiss this face! And with this rasping tongue I don't blame them!</description>
                 <visible>true</visible>
                 <baseMoodEffect>-3</baseMoodEffect>
