@@ -1,0 +1,31 @@
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Schemas/MorphDef.xsd">
+	<Pawnmorph.MorphDef>
+		<defName>BlizzariskMorph</defName>
+		<label>blizzariskmorph</label>
+		<description>Alpacamorphs are rather woolly herbivorous humanoids who often have hooves. They produce good amounts of soft wool, which they can shave off themselves... and they don't need your help, thank you.</description>
+		<race>AA_Blizzarisk</race>
+		<classification>Animal</classification>
+		<categories>
+			<li>Temperate</li>
+		</categories>
+		<fullTransformation>PawnmorphBlizzariskTF</fullTransformation>
+		<partialTransformation>PawnmorphBlizzariskTFPartial</partialTransformation>
+		<raceSettings>
+			<graphicsSettings>
+				<skinColorOverride>(168,106,86)</skinColorOverride>
+				<hairColorOverride>(0,0,0,0)</hairColorOverride>
+			</graphicsSettings>
+			<explicitHybridRace>BlizzariskMorph</explicitHybridRace>
+			<transferHumanBodyAddons>true</transferHumanBodyAddons>
+			<requiredMutations>
+				<li>EtherBlizzariskFangs</li>
+				<li>EtherBlizzariskHair</li>
+				<li>EtherBlizzariskEyes</li>
+			</requiredMutations>
+		</raceSettings>
+		<transformSettings>
+			<transformationMemory>BlizzariskTransformationMemory</transformationMemory>
+			<revertedMemory>BlizzariskRevertedMemory</revertedMemory>
+		</transformSettings>
+	</Pawnmorph.MorphDef>
+</Defs>
