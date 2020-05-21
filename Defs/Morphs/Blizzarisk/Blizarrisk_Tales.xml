@@ -27,19 +27,4 @@
 			</rulesStrings>
 		</rulePack>
 	</TaleDef>
-
-	<TaleDef ParentName="EyesTaleBase">
-		<defName>GrewSpiderEyes</defName>
-		<label>grew spider eyes</label>
-		<rulePack>
-			<rulesStrings>
-				<li>circumstance_phrase->as [PAWN_possessive] tail flicks, idly</li>
-				<li>circumstance_phrase->as [PAWN_possessive] tail oozes, unexpectedly</li>
-				<li>circumstance_phrase->as [PAWN_possessive] tail slithers, quickly</li>
-				<li>circumstance_phrase->as people count the spots on [PAWN_nameDef]'s new tail</li>
-				<li>circumstance_phrase->while someone pokes at [PAWN_possessive] new tail</li>
-				<li>desc_sentence->[PAWN_pronoun] is poking the slime on it.</li>
-			</rulesStrings>
-		</rulePack>
-	</TaleDef>
 </Defs>
