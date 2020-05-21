@@ -1,7 +1,7 @@
 ﻿<Defs>
 	<TaleDef ParentName="MutationTaleBase">
-		<defName>StartsOozingSlime</defName>
-		<label>started oozing slime</label>
+		<defName>StartsGrowingSpiderFur</defName>
+		<label>started growing spider fur</label>
 		<rulePack>
 			<rulesStrings>
 				<li>tale_noun->[PAWN_nameDef] skin leaking mucus</li>
@@ -16,8 +16,8 @@
 	</TaleDef>
 	
 	<TaleDef ParentName="MuzzleTaleBase">
-		<defName>GrewHelixienFace</defName>
-		<label>grew helixien face</label>
+		<defName>GrewSpiderFangs</defName>
+		<label>grew spider fangs</label>
 		<rulePack>
 			<rulesStrings>
 				<li>tale_noun->[PAWN_nameDef] grew a helixien face</li>
@@ -28,9 +28,9 @@
 		</rulePack>
 	</TaleDef>
 
-	<TaleDef ParentName="GrowTailBase">
-		<defName>GrewSlugTail</defName>
-		<label>grew a slug tail</label>
+	<TaleDef ParentName="EyesTaleBase">
+		<defName>GrewSpiderEyes</defName>
+		<label>grew spider eyes</label>
 		<rulePack>
 			<rulesStrings>
 				<li>circumstance_phrase->as [PAWN_possessive] tail flicks, idly</li>

@@ -78,7 +78,7 @@
     </ThoughtDef>
     <ThoughtDef ParentName="OutlookMemoryBase">
         <durationDays>1</durationDays>
-        <defName>BlizzariskTail</defName>
+        <defName>BlizzariskFangs</defName>
         <stages>
             <li>
                 <label>Spider fangs</label>
