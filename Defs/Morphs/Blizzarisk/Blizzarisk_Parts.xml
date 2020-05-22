@@ -9,9 +9,6 @@
 		<description>A pair of vicious, venomous fangs now protrude from [PAWN_nameDef]'s face. They seem to twitch and chitter on their own.</description>
 		<mutationTale>GrewBlizzariskFangs</mutationTale>
 		<mutationMemory>BlizzariskFangs</mutationMemory>
-		<blockSites>
-			<li>Jaw</li>
-		</blockSites>
 		<stages>
 			<li>
 				<capMods>
@@ -71,7 +68,7 @@
 			</li>
 		</comps>
 		<parts>
-			<li>Head</li>
+			<li>Jaw</li>
 		</parts>
 	</Pawnmorph.Hediffs.MutationDef>
 
@@ -81,7 +78,7 @@
 		<description>A rockin' new 'do!</description>
 		<mutationTale>GrewSpiderHair</mutationTale>
 		<parts>
-			<li>Hair</li>
+			<li>Skull</li>
 		</parts>
 		<mutationMemory>BlizzariskHair</mutationMemory>
 		<stages>
@@ -99,11 +96,8 @@
 		<description>Eight beady eyes, they never blink, and frankly it's quite spooky.</description>
 		<mutationTale>GrewSpiderEyes</mutationTale>
 		<parts>
-			<li>Eyes</li>
+			<li>Head</li>
 		</parts>
-		<blockSites>
-			<li>Eyes</li>
-		</blockSites>
 		<mutationMemory>BlizzariskEyes</mutationMemory>
 		<stages>
 			<li>
@@ -170,15 +164,15 @@
 			</li>
 
 			<li Class="Pawnmorph.Hediffs.MutationStage">
-				<labelOverride>fuzzy chitin</labelOverride>
-				<description>This skin has hardened somewhat, but is still covered in fuzz.</description>
+				<labelOverride>thick fuzz</labelOverride>
+				<description>The skin here has begun to harden and the fuzz has gotten much thicker.</description>
 				<minSeverity>0.4</minSeverity>
 				<statOffsets>
 					<ArmorRating_Sharp>0.01</ArmorRating_Sharp>
 				</statOffsets>
 			</li>
 			<li Class="Pawnmorph.Hediffs.MutationStage">
-				<labelOverride>fluffy chitin</labelOverride>
+				<labelOverride>fuzzy chitin</labelOverride>
 				<description>The skin here has hardened further, forming a tough shell, and the hair just gets thicker and thicker.</description>
 
 				<minSeverity>0.6</minSeverity>
@@ -187,8 +181,8 @@
 				</statOffsets>
 			</li>
 			<li Class="Pawnmorph.Hediffs.MutationStage">
-				<labelOverride>thick spider hair</labelOverride>
-				<description>The hair is now so thick and fluffy that in itself it can turn away blades and soften blows. The chitin below it is just the 'ice'-ing on the cake. Sorry.</description>
+				<labelOverride>fluffy chitin</labelOverride>
+				<description>The hair is now so thick and fluffy that it can turn away blades and soften blows. The chitin below it is just the 'ice'-ing on the cake. Sorry.</description>
 				<minSeverity>0.8</minSeverity>
 				<statOffsets>
 					<ArmorRating_Sharp>0.04</ArmorRating_Sharp>

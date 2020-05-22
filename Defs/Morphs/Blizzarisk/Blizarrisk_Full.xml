@@ -1,8 +1,8 @@
 <Defs>
 	<HediffDef ParentName="NewHerbavourMorphTfBase">
 		<defName>PawnmorphBlizzariskTF</defName>
-		<label>helixienmorph</label>
-		<description>This person has mechanites in their blood that are slowly mutating them into a spidermorph. Keep an eye on them, as leaving the mechanites unattended could lead to them becoming far more slug than human.</description>
+		<label>blizzariskmorph</label>
+		<description>This person has mechanites in their blood that are slowly mutating them into a spidermorph. Keep an eye on them, as leaving the mechanites unattended could lead to them becoming far more spider than human.</description>
 		<stages>
 			<li Class="Pawnmorph.Hediffs.FullTransformationStage">
 				<label>reeling</label>

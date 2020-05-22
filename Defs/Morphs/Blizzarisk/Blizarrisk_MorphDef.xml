@@ -12,15 +12,9 @@
 		<partialTransformation>PawnmorphBlizzariskTFPartial</partialTransformation>
 		<raceSettings>
 			<graphicsSettings>
-				<skinColorOverride>(168,106,86)</skinColorOverride>
+				<skinColorOverride>(255,255,255)</skinColorOverride>
 				<hairColorOverride>(0,0,0,0)</hairColorOverride>
 			</graphicsSettings>
-			<transferHumanBodyAddons>true</transferHumanBodyAddons>
-			<requiredMutations>
-				<li>EtherBlizzariskFangs</li>
-				<li>EtherBlizzariskHair</li>
-				<li>EtherBlizzariskEyes</li>
-			</requiredMutations>
 		</raceSettings>
 		<transformSettings>
 			<transformationMemory>BlizzariskTransformationMemory</transformationMemory>
