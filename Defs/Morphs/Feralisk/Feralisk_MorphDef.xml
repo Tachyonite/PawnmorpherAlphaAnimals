@@ -1,0 +1,23 @@
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Schemas/MorphDef.xsd">
+	<Pawnmorph.MorphDef>
+		<defName>FeraliskMorph</defName>
+		<label>feraliskmorph</label>
+		<description>Feraliskmorphs are arachnoid beings, with a venomous bite and an uncanny ability to produce morphsilk. Just don't ask where it comes from.</description>
+		<race>AA_Feralisk</race>
+		<classification>Animal</classification>
+		<categories>
+			<li>Temperate</li>
+		</categories>
+		<fullTransformation>PawnmorphFeraliskTF</fullTransformation>
+		<partialTransformation>PawnmorphFeraliskTFPartial</partialTransformation>
+		<raceSettings>
+			<graphicsSettings>
+				<skinColorOverride>(36,24,22)</skinColorOverride>
+			</graphicsSettings>
+		</raceSettings>
+		<transformSettings>
+			<transformationMemory>FeraliskTransformationMemory</transformationMemory>
+			<revertedMemory>FeraliskRevertedMemory</revertedMemory>
+		</transformSettings>
+	</Pawnmorph.MorphDef>
+</Defs>
