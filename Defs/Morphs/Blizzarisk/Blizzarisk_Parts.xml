@@ -96,11 +96,9 @@
 		<defName>EtherBlizzariskHair</defName>
 		<label>spider hair</label>
 		<description>A rockin' new 'do!</description>
-		<mutationTale>GrewSpiderHair</mutationTale>
 		<parts>
 			<li>Skull</li>
 		</parts>
-		<mutationMemory>BlizzariskHair</mutationMemory>
 		<stages>
 			<li>
 				<statOffsets>
@@ -114,7 +112,6 @@
 		<defName>EtherBlizzariskExtraEyes</defName>
 		<label>extra spider eyes</label>
 		<description>Additional beady eyes, they never blink, and frankly it's quite spooky.</description>
-		<mutationTale>GrewSpiderEyes</mutationTale>
 		<parts>
 			<li>Head</li>
 		</parts>
@@ -181,7 +178,7 @@
 			<li>Foot</li>
 			<li>Tail</li>
 		</parts>
-		<mutationLogRulePack>SlimeGrowthLogPack</mutationLogRulePack>
+		<mutationLogRulePack>SpiderGrowthLogPack</mutationLogRulePack>
 		<countToAffect>2</countToAffect>
 		<categories>
 			<li>Minor</li>

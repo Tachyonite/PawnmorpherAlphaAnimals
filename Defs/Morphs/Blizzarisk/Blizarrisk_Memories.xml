@@ -4,22 +4,22 @@
         <stages>
             <li>
                 <label>morphed</label>
-                <description>I'm slimy, and my mouth waters upsettingly every time I see a dead thing.</description>
+                <description>Lots of people are afraid of spiders, and now I am one!</description>
                 <baseMoodEffect>-3</baseMoodEffect>
             </li>
             <li>
                 <label>morphed</label>
-                <description>It's slime time, baby!</description>
+                <description>Spider-me, spider-me, da dada dada, spider-me</description>
                 <baseMoodEffect>+3</baseMoodEffect>
             </li>
             <li>
                 <label>morphed</label>
-                <description>Blizzarisks are disgusting enough as it is, now I have to see one every time I look in the mirror!</description>
+                <description>...I'M scared of spiders and now I am one!</description>
                 <baseMoodEffect>-5</baseMoodEffect>
             </li>
             <li>
                 <label>morphed</label>
-                <description>I'm kind of digging the wild field of vision, but people keep making salt jokes around me.</description>
+                <description>I'm kinda cute for a horrendous spider freak!</description>
                 <baseMoodEffect>+1</baseMoodEffect>
             </li>
         </stages>
@@ -30,17 +30,17 @@
         <stages>
             <li>
                 <label>reverted</label>
-                <description>I'm dry again, and my eyes are back where nature intended.</description>
+                <description>Back to a normal number of eyes, and a normal amount of hair!</description>
                 <baseMoodEffect>3</baseMoodEffect>
             </li>
             <li>
                 <label>reverted</label>
-                <description>Eugh, corpses smell so bad now, and my skin feels so dry!</description>
+                <description>Spider man no more!? But I liked being a spider man!</description>
                 <baseMoodEffect>-3</baseMoodEffect>
             </li>
             <li>
                 <label>reverted</label>
-                <description>No more wool! Oh, skin, how I missed seeing you...</description>
+                <description>Spider man no more!</description>
                 <baseMoodEffect>10</baseMoodEffect>
             </li>
             <li>
@@ -54,23 +54,23 @@
 
     <ThoughtDef ParentName="OutlookMemoryBase">
         <durationDays>1</durationDays>
-        <defName>BlizzariskFace</defName>
+        <defName>BlizzariskEyes</defName>
         <stages>
             <li>
                 <label>Spider eyes</label>
-                <description>Eugh, the way these eyestalks swing around makes me feel queasy.</description>
+                <description>I was happy with just two eyes!</description>
                 <visible>true</visible>
                 <baseMoodEffect>-1</baseMoodEffect>
             </li>
             <li>
                 <label>Spider eyes</label>
-                <description>I can see forever!</description>
+                <description>I'm a real monster in staring contests now... and in hunting prey.</description>
                 <visible>true</visible>
                 <baseMoodEffect>2</baseMoodEffect>
             </li>
             <li>
                 <label>Spider eyes</label>
-                <description>Nobody is gonna want to kiss this face! And with this rasping tongue I don't blame them!</description>
+                <description>It's much, MUCH harder to cover my eyes when something horrible happens now. And something horrible happens every day here.</description>
                 <visible>true</visible>
                 <baseMoodEffect>-3</baseMoodEffect>
             </li>
@@ -82,19 +82,19 @@
         <stages>
             <li>
                 <label>Spider fangs</label>
-                <description>Do you have any idea how much lint gets stuck to this thing?</description>
+                <description>I could've had spider-strength, but I got these instead...</description>
                 <visible>true</visible>
                 <baseMoodEffect>-1</baseMoodEffect>
             </li>
             <li>
                 <label>Spider fangs</label>
-                <description>Scientifically speaking it's actually a large foot, but either way I can surf around on slime with it. Kowabunga!</description>
+                <description>My enemies will tremble in fear when they see these babies!</description>
                 <visible>true</visible>
                 <baseMoodEffect>1</baseMoodEffect>
             </li>
             <li>
                 <label>Spider fangs</label>
-                <description>There's a loathesome bag of goo growing out of me, how do you think I feel?</description>
+                <description>I managed to make two holes in my hand trying to pick my nose. This sucks.</description>
                 <visible>true</visible>
                 <baseMoodEffect>-2</baseMoodEffect>
             </li>
@@ -106,13 +106,13 @@
         <stages>
             <li>
                 <label>Spider fuzz</label>
-                <description>The leopard spots are kinda nice, but the slime? Not so much.</description>
+                <description>I'm gonna have to spend so much time getting this white fuzz out of my clothes.</description>
                 <visible>true</visible>
                 <baseMoodEffect>-1</baseMoodEffect>
             </li>
             <li>
                 <label>Spider fuzz</label>
-                <description>It's awesome how the slight shines through the translucent surface, like slimy stained glass!</description>
+                <description>I'm cosy AND cute!</description>
                 <visible>true</visible>
                 <baseMoodEffect>1</baseMoodEffect>
             </li>

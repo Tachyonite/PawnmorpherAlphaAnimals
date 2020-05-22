@@ -2,7 +2,7 @@
 	<Pawnmorph.MorphDef>
 		<defName>HelixienMorph</defName>
 		<label>helixienmorph</label>
-		<description>Alpacamorphs are rather woolly herbivorous humanoids who often have hooves. They produce good amounts of soft wool, which they can shave off themselves... and they don't need your help, thank you.</description>
+		<description>Helixienmorphs are horrendous slug-people who rapidly decay corpses, and generally bring everyone's mood down.</description>
 		<race>AA_Helixien</race>
 		<classification>Animal</classification>
 		<categories>
