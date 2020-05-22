@@ -9,16 +9,17 @@
 		<description>A pair of vicious, venomous fangs now protrude from [PAWN_nameDef]'s face. They seem to twitch and chitter on their own.</description>
 		<mutationTale>GrewBlizzariskFangs</mutationTale>
 		<mutationMemory>BlizzariskFangs</mutationMemory>
-		<stages>
+<stages>
 			<li>
+				<label>unfamiliar</label>
 				<capMods>
 					<li>
 						<capacity>Talking</capacity>
-						<offset>-0.60</offset>
+						<offset>-0.50</offset>
 					</li>
 					<li>
 						<capacity>Eating</capacity>
-						<offset>0.40</offset>
+						<offset>-0.10</offset>
 					</li>
 				</capMods>
 				<statOffsets>
@@ -27,21 +28,17 @@
 			</li>
 			<li>
 				<minSeverity>1</minSeverity>
+				<label>adapted</label>
 				<capMods>
 					<li>
 						<capacity>Talking</capacity>
-						<offset>-0.10</offset> <!-- I'm using 20% of the base reduction for the adapted across the board, might need balancing though-->
+						<offset>-0.10</offset>
 					</li>
 					<li>
 						<capacity>Eating</capacity>
-						<offset>0.40</offset>
-					</li>
-					<li>
-						<capacity>Sight</capacity>
-						<offset>0.20</offset>
+						<offset>-0.10</offset>
 					</li>
 				</capMods>
-				<label>adapted</label>
 				<statOffsets>
 					<SocialImpact>-0.10</SocialImpact>
 				</statOffsets>
@@ -51,20 +48,43 @@
 			<li Class="HediffCompProperties_VerbGiver">
 				<tools>
 					<li>
-						<label>fangs</label>
-						<labelUsedInLogging>False</labelUsedInLogging>
+						<label>venom-fangs</label>
 						<capacities>
-							<li>Bite</li>
+							<li>ToxicBite</li>
 						</capacities>
-						<power>6.0</power>
-						<cooldownTime>1.5</cooldownTime>
-						<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+						<power>12</power>
+						<cooldownTime>2</cooldownTime>
+						<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+						<surpriseAttack>
+							<extraMeleeDamages>
+								<li>
+									<def>Stun</def>
+									<amount>14</amount>
+								</li>
+							</extraMeleeDamages>
+						</surpriseAttack>
+					</li>
+					<li>
+						<label>muta-fangs</label>
+						<capacities>
+							<li>MutagenicStab</li>
+						</capacities>
+						<power>12</power>
+						<cooldownTime>2</cooldownTime>
+						<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+						<surpriseAttack>
+							<extraMeleeDamages>
+								<li>
+									<def>Stun</def>
+									<amount>14</amount>
+								</li>
+							</extraMeleeDamages>
+						</surpriseAttack>
 					</li>
 				</tools>
 			</li>
 			<li Class="Pawnmorph.Hediffs.CompProperties_MutationSeverityAdjust">
 				<severityPerDay>0.25</severityPerDay>
-				<!-- takes 4 days to progress -->
 			</li>
 		</comps>
 		<parts>
@@ -84,16 +104,16 @@
 		<stages>
 			<li>
 				<statOffsets>
-					<SocialImpact>0.10</SocialImpact>
+					<SocialImpact>0.20</SocialImpact>
 				</statOffsets>
 			</li>
 		</stages>
 	</Pawnmorph.Hediffs.MutationDef>
 
 	<Pawnmorph.Hediffs.MutationDef ParentName="BlizzariskPart">
-		<defName>EtherBlizzariskEyes</defName>
-		<label>spider eyes</label>
-		<description>Eight beady eyes, they never blink, and frankly it's quite spooky.</description>
+		<defName>EtherBlizzariskExtraEyes</defName>
+		<label>extra spider eyes</label>
+		<description>Additional beady eyes, they never blink, and frankly it's quite spooky.</description>
 		<mutationTale>GrewSpiderEyes</mutationTale>
 		<parts>
 			<li>Head</li>
@@ -102,11 +122,38 @@
 		<stages>
 			<li>
 				<statOffsets>
-					<SocialImpact>0.10</SocialImpact>
+					<SocialImpact>-0.10</SocialImpact>
 				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Sight</capacity>
+						<offset>0.2</offset>
+					</li>
+				</capMods>
 			</li>
 		</stages>
 	</Pawnmorph.Hediffs.MutationDef>
+
+<Pawnmorph.Hediffs.MutationDef ParentName="SnakePart">
+		<defName>EtherBlizzariskEye</defName>
+		<label>spider eye</label>
+		<description>[PAWN_nameDef]'s eyes don't blink any more, and they're black, lifeless eyes, like a doll's eyes.</description>
+		<parts>
+			<li>Eye</li>
+		</parts>
+		<stages>
+			<li>
+				<statOffsets>
+					<SocialImpact>-0.10</SocialImpact>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Sight</capacity>
+						<offset>0.2</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
 	
 	
     <RulePackDef ParentName="CoveringMutationLogPackBase">

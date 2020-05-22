@@ -957,7 +957,7 @@
 				<drawForFemale>false</drawForFemale>
 				<hediffGraphics>
 					<EtherHelixienFace>Parts/Helixien/Helixien_Face</EtherHelixienFace>
-					<EtherBlizzariskEyes>Parts/Blizzarisk/blizzarisk_eyes</EtherBlizzariskEyes>
+					<EtherBlizzariskExtraEyes>Parts/Blizzarisk/blizzarisk_eyes</EtherBlizzariskExtraEyes>
 				</hediffGraphics>
 				<hiddenUnderApparelFor>
 					<li>FullHead</li>
