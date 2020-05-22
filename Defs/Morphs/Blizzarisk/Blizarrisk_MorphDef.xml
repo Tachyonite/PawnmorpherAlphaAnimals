@@ -15,7 +15,6 @@
 				<skinColorOverride>(168,106,86)</skinColorOverride>
 				<hairColorOverride>(0,0,0,0)</hairColorOverride>
 			</graphicsSettings>
-			<explicitHybridRace>BlizzariskMorph</explicitHybridRace>
 			<transferHumanBodyAddons>true</transferHumanBodyAddons>
 			<requiredMutations>
 				<li>EtherBlizzariskFangs</li>
