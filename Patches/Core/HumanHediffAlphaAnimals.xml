@@ -12,6 +12,9 @@
 				<drawForFemale>false</drawForFemale>
 				<hediffGraphics>
 					<EtherHelixienFace>Parts/Helixien/Helixien_Face</EtherHelixienFace>
+					<EtherBlizzariskFangs>Parts/Blizzarisk/blizzarisk_mouth</EtherBlizzariskFangs>
+					<EtherBlizzariskEyes>Parts/Blizzarisk/blizzarisk_eyes</EtherBlizzariskEyes>
+					<EtherBlizzariskHair>Parts/Blizzarisk/blizzarisk_hair</EtherBlizzariskHair>
 				</hediffGraphics>
 				<hiddenUnderApparelFor>
 					<li>FullHead</li>
