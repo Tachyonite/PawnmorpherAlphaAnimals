@@ -621,7 +621,6 @@
 				<inFrontOfBody>true</inFrontOfBody>
 				<drawForFemale>false</drawForFemale>
 				<hediffGraphics>
-					<EtherBlizzariskHair>Parts/Blizzarisk/blizzarisk_hair</EtherBlizzariskHair>
 				</hediffGraphics>
 				<offsets>
 					<south>
@@ -677,8 +676,7 @@
 				<bodyPart>Skull</bodyPart>
 				<inFrontOfBody>true</inFrontOfBody>
 				<drawForMale>false</drawForMale>
-				<hediffGraphics>
-					<EtherBlizzariskHair>Parts/Blizzarisk/blizzarisk_hair</EtherBlizzariskHair>
+				<hediffGraphics>				
 				</hediffGraphics>
 				<offsets>
 					<south>
@@ -738,6 +736,7 @@
 				<layerOffset>-0.26</layerOffset>
 				<drawForFemale>false</drawForFemale>
 				<hediffGraphics>
+					<EtherBlizzariskHair>Parts/Blizzarisk/blizzarisk_hair</EtherBlizzariskHair>
 				</hediffGraphics>
 				<hiddenUnderApparelFor>
 					<li>UpperHead</li>
@@ -783,6 +782,7 @@
 				<inFrontOfBody>false</inFrontOfBody>
 				<drawForFemale>false</drawForFemale>
 				<hediffGraphics>
+					<EtherBlizzariskHair>Parts/Blizzarisk/blizzarisk_hair_behind</EtherBlizzariskHair>
 				</hediffGraphics>
 				<hiddenUnderApparelFor>
 					<li>UpperHead</li>
@@ -829,6 +829,7 @@
 				<layerOffset>-0.26</layerOffset>
 				<drawForMale>false</drawForMale>
 				<hediffGraphics>
+					<EtherBlizzariskHair>Parts/Blizzarisk/blizzarisk_hair</EtherBlizzariskHair>
 				</hediffGraphics>
 				<hiddenUnderApparelFor>
 					<li>UpperHead</li>
@@ -877,6 +878,7 @@
 				<inFrontOfBody>false</inFrontOfBody>
 				<drawForMale>false</drawForMale>
 				<hediffGraphics>
+					<EtherBlizzariskHair>Parts/Blizzarisk/blizzarisk_hair_behind</EtherBlizzariskHair>
 				</hediffGraphics>
 				<hiddenUnderApparelFor>
 					<li>UpperHead</li>
@@ -1016,7 +1018,7 @@
 				<drawForMale>false</drawForMale>
 				<hediffGraphics>
 					<EtherHelixienFace>Parts/Helixien/Helixien_Face</EtherHelixienFace>
-					<EtherBlizzariskEyes>Parts/Blizzarisk/blizzarisk_eyes</EtherBlizzariskEyes>
+					<EtherBlizzariskExtraEyes>Parts/Blizzarisk/blizzarisk_eyes</EtherBlizzariskExtraEyes>
 				</hediffGraphics>
 				<hiddenUnderApparelFor>
 					<li>FullHead</li>

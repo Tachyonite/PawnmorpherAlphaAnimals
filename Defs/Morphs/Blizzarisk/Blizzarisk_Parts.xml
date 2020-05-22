@@ -104,7 +104,7 @@
 		<stages>
 			<li>
 				<statOffsets>
-					<SocialImpact>0.20</SocialImpact>
+					<SocialImpact>0.10</SocialImpact>
 				</statOffsets>
 			</li>
 		</stages>
@@ -134,7 +134,7 @@
 		</stages>
 	</Pawnmorph.Hediffs.MutationDef>
 
-<Pawnmorph.Hediffs.MutationDef ParentName="SnakePart">
+<Pawnmorph.Hediffs.MutationDef ParentName="BlizzariskPart">
 		<defName>EtherBlizzariskEye</defName>
 		<label>spider eye</label>
 		<description>[PAWN_nameDef]'s eyes don't blink any more, and they're black, lifeless eyes, like a doll's eyes.</description>
@@ -154,7 +154,7 @@
 				</capMods>
 			</li>
 		</stages>
-	
+	</Pawnmorph.Hediffs.MutationDef>
 	
     <RulePackDef ParentName="CoveringMutationLogPackBase">
         <defName>SpiderGrowthLogPack</defName>
