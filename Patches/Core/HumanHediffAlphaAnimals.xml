@@ -927,6 +927,7 @@
 				<inFrontOfBody>true</inFrontOfBody>
 				<drawnInBed>false</drawnInBed>
 				<hediffGraphics>
+					<EtherSwarmlingClaws>Parts/Swarmling/Swarmling_Graspers</EtherSwarmlingClaws>
 				</hediffGraphics>
 				<layerOffset>-0.29</layerOffset>
 				<offsets>
@@ -963,6 +964,7 @@
 					<EtherHelixienFace>Parts/Helixien/Helixien_Face</EtherHelixienFace>
 					<EtherBlizzariskExtraEyes>Parts/Blizzarisk/blizzarisk_eyes</EtherBlizzariskExtraEyes>
 					<EtherFeraliskExtraEyes>Parts/Feralisk/feralisk_eyes</EtherFeraliskExtraEyes>
+					<EtherSwarmlingHead>Parts/Swarmling/Swarmling_Head</EtherSwarmlingHead>
 				</hediffGraphics>
 				<hiddenUnderApparelFor>
 					<li>FullHead</li>
@@ -981,19 +983,21 @@
 							<Average_Pointy>(0,0.005)</Average_Pointy>
 						</crownTypes>
 					</south>
-					<north>
+										<north>
 						<bodyTypes>
-							<Male>(-0.42,0.56)</Male>
-							<Female>(-0.42,0.56)</Female>
-							<Thin>(-0.42,0.56)</Thin>
-							<Hulk>(-0.42,0.56)</Hulk>
-							<Fat>(-0.42,0.56)</Fat>
+							<Male>(0,0.94)</Male>
+							<Female>(0,0.94)</Female>
+							<Thin>(0,0.94)</Thin>
+							<Hulk>(0,0.94)</Hulk>
+							<Fat>(0,0.94)</Fat>
 						</bodyTypes>
 						<crownTypes>
-							<Average_Wide>(-0.01,0.005)</Average_Wide>
-							<Average_Pointy>(0,0.005)</Average_Pointy>
+							<Average_Pointy>(-0.01,0)</Average_Pointy>
+							<Narrow_Normal>(0,-0.015)</Narrow_Normal>
+							<Narrow_Wide>(0,-0.015)</Narrow_Wide>
+							<Narrow_Pointy>(0,-0.015)</Narrow_Pointy>
 						</crownTypes>
-					</north >
+					</north>
 					<east>
 						<bodyTypes>
 							<Male>(-0.46,0.56)</Male>
@@ -1023,6 +1027,7 @@
 					<EtherHelixienFace>Parts/Helixien/Helixien_Face</EtherHelixienFace>
 					<EtherBlizzariskExtraEyes>Parts/Blizzarisk/blizzarisk_eyes</EtherBlizzariskExtraEyes>
 					<EtherFeraliskExtraEyes>Parts/Feralisk/feralisk_eyes</EtherFeraliskExtraEyes>
+					<EtherSwarmlingHead>Parts/Swarmling/Swarmling_Head</EtherSwarmlingHead>
 				</hediffGraphics>
 				<hiddenUnderApparelFor>
 					<li>FullHead</li>
@@ -1045,17 +1050,17 @@
 					</south>
 					<north>
 						<bodyTypes>
-							<Male>(-0.42,0.56)</Male>
-							<Female>(-0.42,0.56)</Female>
-							<Thin>(-0.42,0.56)</Thin>
-							<Hulk>(-0.42,0.56)</Hulk>
-							<Fat>(-0.42,0.56)</Fat>
+							<Male>(0,0.94)</Male>
+							<Female>(0,0.94)</Female>
+							<Thin>(0,0.94)</Thin>
+							<Hulk>(0,0.94)</Hulk>
+							<Fat>(0,0.94)</Fat>
 						</bodyTypes>
 						<crownTypes>
 							<Average_Pointy>(-0.01,0)</Average_Pointy>
-							<Narrow_Normal>(0,0.02)</Narrow_Normal>
-							<Narrow_Wide>(-0.02,0.02)</Narrow_Wide>
-							<Narrow_Pointy>(0,-0.01)</Narrow_Pointy>
+							<Narrow_Normal>(0,-0.015)</Narrow_Normal>
+							<Narrow_Wide>(0,-0.015)</Narrow_Wide>
+							<Narrow_Pointy>(0,-0.015)</Narrow_Pointy>
 						</crownTypes>
 					</north>
 					<east>

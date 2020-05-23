@@ -1,0 +1,221 @@
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Schemas/MutationDef.xsd">
+	<Pawnmorph.Hediffs.MutationDef Name="SwarmlingPart" ParentName="PawnmorphPart" Abstract="true">
+		<classInfluence>SwarmlingMorph</classInfluence>
+	</Pawnmorph.Hediffs.MutationDef>
+
+	<Pawnmorph.Hediffs.MutationDef ParentName="SwarmlingPart">
+		<defName>EtherSwarmlingHead</defName>
+		<label>swarmling head</label>
+		<description>[PAWN_nameDef]'s head and face have reshaped into the bizarre, crested likeness of a swarmling. They have a vicious bite, but their resemblance to the feared galactic parasite triggers fear in those who see them.</description>
+		<mutationTale>GrewSwarmlingHead</mutationTale>
+		<mutationMemory>SwarmlingHead</mutationMemory>
+<stages>
+			<li>
+				<label>unfamiliar</label>
+				<capMods>
+					<li>
+						<capacity>Talking</capacity>
+						<offset>-0.50</offset>
+					</li>
+					<li>
+						<capacity>Eating</capacity>
+						<offset>-0.10</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<SocialImpact>-0.10</SocialImpact>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>1</minSeverity>
+				<label>adapted</label>
+				<capMods>
+					<li>
+						<capacity>Talking</capacity>
+						<offset>-0.10</offset>
+					</li>
+					<li>
+						<capacity>Eating</capacity>
+						<offset>-0.10</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<SocialImpact>-0.10</SocialImpact>
+				</statOffsets>
+			</li>
+		</stages>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>muta-bite</label>
+						<capacities>
+							<li>MutagenicStab</li>
+						</capacities>
+						<power>12</power>
+						<cooldownTime>2</cooldownTime>
+						<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+						<surpriseAttack>
+							<extraMeleeDamages>
+								<li>
+									<def>Stun</def>
+									<amount>14</amount>
+								</li>
+							</extraMeleeDamages>
+						</surpriseAttack>
+					</li>
+				</tools>
+			</li>
+			<li Class="Pawnmorph.Hediffs.CompProperties_MutationSeverityAdjust">
+				<severityPerDay>0.25</severityPerDay>
+			</li>
+		</comps>
+		<blockSites>
+			<li>Jaw</li>
+			<li>Skull</li>
+		</blockSites>
+		<parts>
+			<li>Head</li>
+		</parts>
+	</Pawnmorph.Hediffs.MutationDef>
+
+<Pawnmorph.Hediffs.MutationDef ParentName="SwarmlingPart">
+		<defName>EtherSwarmlingEye</defName>
+		<label>swarmling eye</label>
+		<description>[PAWN_nameDef]'s eyes are now barely visible organs, more like heat-sensing pits than real eyes. They work really well for tracking prey, less so for making friends.</description>
+		<parts>
+			<li>Eye</li>
+		</parts>
+		<stages>
+			<li>
+				<statOffsets>
+					<SocialImpact>-0.10</SocialImpact>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Sight</capacity>
+						<offset>0.2</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</Pawnmorph.Hediffs.MutationDef>
+
+<Pawnmorph.Hediffs.MutationDef ParentName="SwarmlingPart">
+		<defName>EtherSwarmlingClaws</defName>
+		<label>swarmling claws</label>
+		<description>[PAWN_nameDef] now has pinchy little claws jutting from their abdomen, each concealing an ovipositor. Great for hugs, both the friendly and unfriendly kind. Just don't squeeze those you care about too hard with them.</description>	
+		<parts>
+			<li>Waist</li>
+		</parts>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+			<tools>
+
+			<li>
+				<label>left claw</label>
+				<capacities>
+					<li>AA_SwarmlingClaws</li>
+				</capacities>
+				<power>4</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>right claw</label>
+				<capacities>
+					<li>AA_SwarmlingClaws</li>
+				</capacities>
+				<power>4</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
+			</li>
+			</tools>
+			</li>
+		</comps>
+	</Pawnmorph.Hediffs.MutationDef>
+	
+    <RulePackDef ParentName="CoveringMutationLogPackBase">
+        <defName>SwarmlingGrowthLogPack</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>label->rubbery hide</li>
+                <li>bulk_label->coating</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+	<Pawnmorph.Hediffs.MutationDef ParentName="PawnmorphSkinPart">
+		<defName>EtherSwarmlingLimb</defName>
+		<label>rubbery hide</label>
+		<description>The skin here has become thick and rubbery.</description>
+		<classInfluence>SwarmlingMorph</classInfluence>
+		<parts>
+			<li>Torso</li>
+			<li>Head</li>
+			<li>Ear</li>
+			<li>Arm</li>
+			<li>Hand</li>
+			<li>Leg</li>
+			<li>Foot</li>
+			<li>Tail</li>
+		</parts>
+		<mutationLogRulePack>SwarmlingGrowthLogPack</mutationLogRulePack>
+		<countToAffect>2</countToAffect>
+		<categories>
+			<li>Minor</li>
+		</categories>
+		<comps>
+			<li Class="Pawnmorph.Hediffs.CompProperties_MutationSeverityAdjust">
+				<severityPerDay>0.33</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li Class="Pawnmorph.Hediffs.MutationStage">
+				<labelOverride>shiny skin</labelOverride>
+				<description>The skin here has taken on an oddly shiny finish, like the new skin after a wound heals.</description>
+
+				<minSeverity>0</minSeverity>
+				<statOffsets>
+					<ArmorRating_Sharp>0.001</ArmorRating_Sharp>
+				</statOffsets>
+			</li>
+			<li Class="Pawnmorph.Hediffs.MutationStage">
+				<labelOverride>thich shiny skin</labelOverride>
+				<description>The skin here has grown thicker, still shiny, but now oddly clammy.</description>
+				<minSeverity>0.2</minSeverity>
+				<statOffsets>
+					<ArmorRating_Sharp>0.005</ArmorRating_Sharp>
+				</statOffsets>
+			</li>
+
+			<li Class="Pawnmorph.Hediffs.MutationStage">
+				<labelOverride>rubbery skin</labelOverride>
+				<description>The skin is now much thicker, and rubbery to the touch.</description>
+				<minSeverity>0.4</minSeverity>
+				<statOffsets>
+					<ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+				</statOffsets>
+			</li>
+			<li Class="Pawnmorph.Hediffs.MutationStage">
+				<labelOverride>damp rubbery skin</labelOverride>
+				<description>The thick, rubbery skin here now exudes a thin layer of moisture.</description>
+
+				<minSeverity>0.6</minSeverity>
+				<statOffsets>
+					<ArmorRating_Sharp>0.02</ArmorRating_Sharp>
+				</statOffsets>
+			</li>
+			<li Class="Pawnmorph.Hediffs.MutationStage">
+				<labelOverride>swarmling hide</labelOverride>
+				<description>This skin is now exactly like the clammy hide of the parasitoid clawed slug commonly known as the Swarmling.</description>
+				<minSeverity>0.8</minSeverity>
+				<statOffsets>
+					<ArmorRating_Sharp>0.04</ArmorRating_Sharp>
+				</statOffsets>
+			</li>
+		</stages>
+	</Pawnmorph.Hediffs.MutationDef>
+	
+	
+</Defs>

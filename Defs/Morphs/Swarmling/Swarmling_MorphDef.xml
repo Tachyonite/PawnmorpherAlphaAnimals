@@ -1,0 +1,24 @@
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Schemas/MorphDef.xsd">
+	<Pawnmorph.MorphDef>
+		<defName>SwarmlingMorph</defName>
+		<label>swarmlingmorph</label>
+		<description>Swarmlingmorphs are slug-like, parasitic beings, with a mutagenic bite and a horrendous method of producing more swarmlings.</description>
+		<race>AA_Swarmling</race>
+		<classification>Animal</classification>
+		<categories>
+			<li>Temperate</li>
+		</categories>
+		<fullTransformation>PawnmorphSwarmlingTF</fullTransformation>
+		<partialTransformation>PawnmorphSwarmlingTFPartial</partialTransformation>
+		<raceSettings>
+			<graphicsSettings>
+				<skinColorOverride>(126,63,42)</skinColorOverride>
+				<hairColorOverride>(0,0,0,0)</hairColorOverride>
+			</graphicsSettings>
+		</raceSettings>
+		<transformSettings>
+			<transformationMemory>SwarmlingTransformationMemory</transformationMemory>
+			<revertedMemory>SwarmlingRevertedMemory</revertedMemory>
+		</transformSettings>
+	</Pawnmorph.MorphDef>
+</Defs>
