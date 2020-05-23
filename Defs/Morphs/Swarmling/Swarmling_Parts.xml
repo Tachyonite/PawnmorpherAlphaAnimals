@@ -24,6 +24,8 @@
 				</capMods>
 				<statOffsets>
 					<SocialImpact>-0.10</SocialImpact>
+					<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+					<ArmorRating_Sharp>0.3</ArmorRating_Sharp>
 				</statOffsets>
 			</li>
 			<li>
@@ -41,9 +43,12 @@
 				</capMods>
 				<statOffsets>
 					<SocialImpact>-0.10</SocialImpact>
+					<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+					<ArmorRating_Sharp>0.3</ArmorRating_Sharp>
 				</statOffsets>
 			</li>
 		</stages>
+
 		<comps>
 			<li Class="HediffCompProperties_VerbGiver">
 				<tools>
@@ -108,6 +113,12 @@
 		<parts>
 			<li>Waist</li>
 		</parts>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>0.1</offset>
+					</li>
+				</capMods>
 		<comps>
 			<li Class="HediffCompProperties_VerbGiver">
 			<tools>
@@ -178,6 +189,7 @@
 				<minSeverity>0</minSeverity>
 				<statOffsets>
 					<ArmorRating_Sharp>0.001</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.001</ArmorRating_Blunt>
 				</statOffsets>
 			</li>
 			<li Class="Pawnmorph.Hediffs.MutationStage">
@@ -186,6 +198,7 @@
 				<minSeverity>0.2</minSeverity>
 				<statOffsets>
 					<ArmorRating_Sharp>0.005</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.004</ArmorRating_Blunt>
 				</statOffsets>
 			</li>
 
@@ -195,6 +208,7 @@
 				<minSeverity>0.4</minSeverity>
 				<statOffsets>
 					<ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.008</ArmorRating_Blunt>
 				</statOffsets>
 			</li>
 			<li Class="Pawnmorph.Hediffs.MutationStage">
@@ -203,7 +217,8 @@
 
 				<minSeverity>0.6</minSeverity>
 				<statOffsets>
-					<ArmorRating_Sharp>0.02</ArmorRating_Sharp>
+					<ArmorRating_Sharp>0.03</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.01</ArmorRating_Blunt>
 				</statOffsets>
 			</li>
 			<li Class="Pawnmorph.Hediffs.MutationStage">
@@ -212,6 +227,7 @@
 				<minSeverity>0.8</minSeverity>
 				<statOffsets>
 					<ArmorRating_Sharp>0.04</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.02</ArmorRating_Blunt>
 				</statOffsets>
 			</li>
 		</stages>
