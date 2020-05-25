@@ -1,13 +1,5 @@
 <Defs>
-    <BodyPartDef>
-        <defName>TailLeg</defName>
-        <label>tail</label>
-        <hitPoints>60</hitPoints>
-        <skinCovered>true</skinCovered>
-        <tags>
-            <li>MovingLimbCore</li>
-        </tags>
-    </BodyPartDef>
+
     <BodyDef>
         <defName>HelixienHybridBody</defName>
         <label>slugperson</label>

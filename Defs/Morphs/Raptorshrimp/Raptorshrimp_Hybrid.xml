@@ -1,13 +1,5 @@
 <Defs>
-    <BodyPartDef>
-        <defName>TailLegShrimp</defName>
-        <label>tail</label>
-        <hitPoints>60</hitPoints>
-        <skinCovered>true</skinCovered>
-        <tags>
-            <li>MovingLimbCore</li>
-        </tags>
-    </BodyPartDef>
+ 
     <BodyDef>
         <defName>RaptorshrimpHybridBody</defName>
         <label>raptoid</label>
@@ -422,7 +414,7 @@
                     </groups>
                 </li>
                 <li>
-                    <def>TailLegShrimp</def>
+                    <def>TailLeg</def>
                     <coverage>0.14</coverage>
                     <height>Bottom</height>
                     <groups>
@@ -556,7 +548,7 @@
                         <li>
                             <!-- Body Tails -->
                             <path>Parts/None/None</path>
-                            <bodyPart>TailLegShrimp</bodyPart>
+                            <bodyPart>TailLeg</bodyPart>
                             <inFrontOfBody>true</inFrontOfBody>
                             <layerInvert>false</layerInvert>
                             <drawnInBed>false</drawnInBed>
