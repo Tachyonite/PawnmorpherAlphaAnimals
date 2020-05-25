@@ -563,38 +563,6 @@
 				</offsets>
 			</li>
 			<li>
-				<!-- Body Tails -->
-				<path>Parts/None/None</path>
-				<bodyPart>Tail</bodyPart>
-				<inFrontOfBody>true</inFrontOfBody>
-				<layerInvert>false</layerInvert>
-				<drawnInBed>false</drawnInBed>
-				<hediffGraphics>
-				</hediffGraphics>
-				<layerOffset>-0.29</layerOffset>
-				<offsets>
-					<south />
-					<north>
-						<bodyTypes>
-							<Male>(0,0.20)</Male>
-							<Female>(0,0.16)</Female>
-							<Thin>(0,0.20)</Thin>
-							<Hulk>(0,0)</Hulk>
-							<Fat>(0,0.16)</Fat>
-						</bodyTypes>
-					</north>
-					<east>
-						<bodyTypes>
-							<Male>(-0.20,-0.02)</Male>
-							<Female>(-0.24,-0.09)</Female>
-							<Thin>(-0.25,-0.02)</Thin>
-							<Hulk>(-0.06,-0.23)</Hulk>
-							<Fat>(0.02,-0.05)</Fat>
-						</bodyTypes>
-					</east>
-				</offsets>
-			</li>
-			<li>
 				<path>Parts/None/None</path>
 				<bodyPart>Arm</bodyPart>
 				<inFrontOfBody>true</inFrontOfBody>
@@ -965,6 +933,7 @@
 					<EtherBlizzariskExtraEyes>Parts/Blizzarisk/blizzarisk_eyes</EtherBlizzariskExtraEyes>
 					<EtherFeraliskExtraEyes>Parts/Feralisk/feralisk_eyes</EtherFeraliskExtraEyes>
 					<EtherSwarmlingHead>Parts/Swarmling/Swarmling_Head</EtherSwarmlingHead>
+					<EtherRaptorshrimpFace>Parts/Raptorshrimp/raptorshrimp_head</EtherRaptorshrimpFace>
 				</hediffGraphics>
 				<hiddenUnderApparelFor>
 					<li>FullHead</li>
@@ -1028,6 +997,7 @@
 					<EtherBlizzariskExtraEyes>Parts/Blizzarisk/blizzarisk_eyes</EtherBlizzariskExtraEyes>
 					<EtherFeraliskExtraEyes>Parts/Feralisk/feralisk_eyes</EtherFeraliskExtraEyes>
 					<EtherSwarmlingHead>Parts/Swarmling/Swarmling_Head</EtherSwarmlingHead>
+					<EtherRaptorshrimpFace>Parts/Raptorshrimp/raptorshrimp_head</EtherRaptorshrimpFace>
 				</hediffGraphics>
 				<hiddenUnderApparelFor>
 					<li>FullHead</li>
@@ -1092,6 +1062,7 @@
 				<drawnInBed>false</drawnInBed>
 				<hediffGraphics>
 					<EtherHelixienTail>Parts/Helixien/Helixien_Tail</EtherHelixienTail>
+					<EtherRaptorshrimpTail>Parts/Raptorshrimp/raptorshrimp_tail</EtherRaptorshrimpTail>
 				</hediffGraphics>
 				<layerOffset>-0.29</layerOffset>
 				<offsets>
@@ -1115,6 +1086,281 @@
 						</bodyTypes>
 					</east>
 				</offsets>
+			</li>
+			<li>
+				<!-- Male Left Arm -->
+				<path>Parts/None/None</path>
+				<bodyPart>left arm</bodyPart>
+				<offsets>
+						<east>
+						<bodyTypes>
+							<Male>(-0.4,0)</Male>
+							<Female>(-0.4,0)</Female>
+							<Thin>(-0.4,0)</Thin>
+							<Hulk>(-0.4,0)</Hulk>
+							<Fat>(-0.4,0)</Fat>
+						</bodyTypes>
+					</east>
+					<west>
+						<bodyTypes>
+							<Male>(-0.4,0)</Male>
+							<Female>(-0.4,0)</Female>
+							<Thin>(-0.4,0)</Thin>
+							<Hulk>(-0.4,0)</Hulk>
+							<Fat>(-0.4,0)</Fat>
+						</bodyTypes>
+					</west>
+					<north>
+						<bodyTypes>
+							<Male>(0,0.6)</Male>
+							<Female>(-0.04,0.5)</Female>
+							<Thin>(0,0.6)</Thin>
+							<Hulk>(0,0.6)</Hulk>
+							<Fat>(0,0.6)</Fat>
+						</bodyTypes>
+					</north>
+					<south>
+						<bodyTypes>
+							<Male>(-0.41,0.17)</Male>
+							<Female>(-0.45,0.17)</Female>
+							<Thin>(-0.41,0.17)</Thin>
+							<Hulk>(-0.41,0.17)</Hulk>
+							<Fat>(-0.41,0.17)</Fat>
+						</bodyTypes>
+					</south>
+				</offsets>
+				<inFrontOfBody>true</inFrontOfBody>
+				<layerOffset>-0.26</layerOffset>
+				<hediffGraphics>
+					<EtherRaptorshrimpArm>Parts/Raptorshrimp/raptorshrimp_claws_left</EtherRaptorshrimpArm>
+				</hediffGraphics>
+			</li>
+			<li>
+				<!-- Male Left Arm (Behind Body) -->
+				<path>Parts/None/None</path>
+				<bodyPart>left arm</bodyPart>
+				<offsets>
+					<east>
+						<bodyTypes>
+							<Male>(-0.4,0)</Male>
+							<Female>(-0.4,0)</Female>
+							<Thin>(-0.4,0)</Thin>
+							<Hulk>(-0.4,0)</Hulk>
+							<Fat>(-0.4,0)</Fat>
+						</bodyTypes>
+					</east>
+					<west>
+						<bodyTypes>
+							<Male>(-0.4,0)</Male>
+							<Female>(-0.4,0)</Female>
+							<Thin>(-0.4,0)</Thin>
+							<Hulk>(-0.4,0)</Hulk>
+							<Fat>(-0.4,0)</Fat>
+						</bodyTypes>
+					</west>
+					<north>
+						<bodyTypes>
+							<Male>(0,0.6)</Male>
+							<Female>(0,0.6)</Female>
+							<Thin>(0,0.6)</Thin>
+							<Hulk>(0,0.6)</Hulk>
+							<Fat>(0,0.6)</Fat>
+						</bodyTypes>
+					</north>
+					<south>
+						<bodyTypes>
+							<Male>(-0.41,0.17)</Male>
+							<Female>(-0.41,0.17)</Female>
+							<Thin>(-0.41,0.17)</Thin>
+							<Hulk>(-0.41,0.17)</Hulk>
+							<Fat>(-0.41,0.17)</Fat>
+						</bodyTypes>
+					</south>
+				</offsets>
+				<inFrontOfBody>false</inFrontOfBody>
+				<hediffGraphics>
+					<EtherRaptorshrimpArm>Parts/Raptorshrimp/raptorshrimp_claws_left_behind</EtherRaptorshrimpArm>
+				</hediffGraphics>
+			</li>
+			<li>
+				<!-- Male Right Arm -->
+				<path>Parts/None/None</path>
+				<bodyPart>right arm</bodyPart>
+				<offsets>
+<east>
+						<bodyTypes>
+							<Male>(-0.4,0)</Male>
+							<Female>(-0.4,0)</Female>
+							<Thin>(-0.4,0)</Thin>
+							<Hulk>(-0.4,0)</Hulk>
+							<Fat>(-0.4,0)</Fat>
+						</bodyTypes>
+					</east>
+					<west>
+						<bodyTypes>
+							<Male>(-0.4,0)</Male>
+							<Female>(-0.4,0)</Female>
+							<Thin>(-0.4,0)</Thin>
+							<Hulk>(-0.4,0)</Hulk>
+							<Fat>(-0.4,0)</Fat>
+						</bodyTypes>
+					</west>
+					<north>
+						<bodyTypes>
+							<Male>(0,0.6)</Male>
+							<Female>(0.04,0.5)</Female>
+							<Thin>(0,0.6)</Thin>
+							<Hulk>(0,0.6)</Hulk>
+							<Fat>(0,0.6)</Fat>
+						</bodyTypes>
+					</north>
+					<south>
+						<bodyTypes>
+							<Male>(-0.41,0.17)</Male>
+							<Female>(-0.37,0.17)</Female>
+							<Thin>(-0.41,0.17)</Thin>
+							<Hulk>(-0.41,0.17)</Hulk>
+							<Fat>(-0.41,0.17)</Fat>
+						</bodyTypes>
+					</south>
+				</offsets>
+				<inFrontOfBody>true</inFrontOfBody>
+				<layerOffset>-0.26</layerOffset>
+				<hediffGraphics>
+					<EtherRaptorshrimpArm>Parts/Raptorshrimp/raptorshrimp_claws_right</EtherRaptorshrimpArm>
+				</hediffGraphics>
+			</li>
+			<li>
+				<!-- Male Right Arm (Behind Body) -->
+				<path>Parts/None/None</path>
+				<bodyPart>right arm</bodyPart>
+				<offsets>
+<east>
+						<bodyTypes>
+							<Male>(-0.4,0)</Male>
+							<Female>(-0.4,0)</Female>
+							<Thin>(-0.4,0)</Thin>
+							<Hulk>(-0.4,0)</Hulk>
+							<Fat>(-0.4,0)</Fat>
+						</bodyTypes>
+					</east>
+					<west>
+						<bodyTypes>
+							<Male>(-0.4,0)</Male>
+							<Female>(-0.4,0)</Female>
+							<Thin>(-0.4,0)</Thin>
+							<Hulk>(-0.4,0)</Hulk>
+							<Fat>(-0.4,0)</Fat>
+						</bodyTypes>
+					</west>
+					<north>
+						<bodyTypes>
+							<Male>(0,0.6)</Male>
+							<Female>(0,0.6)</Female>
+							<Thin>(0,0.6)</Thin>
+							<Hulk>(0,0.6)</Hulk>
+							<Fat>(0,0.6)</Fat>
+						</bodyTypes>
+					</north>
+					<south>
+						<bodyTypes>
+							<Male>(-0.41,0.17)</Male>
+							<Female>(-0.41,0.17)</Female>
+							<Thin>(-0.41,0.17)</Thin>
+							<Hulk>(-0.41,0.17)</Hulk>
+							<Fat>(-0.41,0.17)</Fat>
+						</bodyTypes>
+					</south>
+				</offsets>
+				<inFrontOfBody>false</inFrontOfBody>
+				<hediffGraphics>
+					<EtherRaptorshrimpArm>Parts/Raptorshrimp/raptorshrimp_claws_right_behind</EtherRaptorshrimpArm>
+				</hediffGraphics>
+			</li>		
+			<li>
+				<!-- Shell -->
+				<path>Parts/None/None</path>
+				<bodyPart>Spine</bodyPart>
+				<offsets>
+					<east>
+						<bodyTypes>
+							<Male>(-0.4,0)</Male>
+							<Female>(-0.4,0)</Female>
+							<Thin>(-0.4,0)</Thin>
+							<Hulk>(-0.4,0)</Hulk>
+							<Fat>(-0.4,0)</Fat>
+						</bodyTypes>
+					</east>
+					<west>
+						<bodyTypes>
+							<Male>(-0.4,0)</Male>
+							<Female>(-0.4,0)</Female>
+							<Thin>(-0.4,0)</Thin>
+							<Hulk>(-0.4,0)</Hulk>
+							<Fat>(-0.4,0)</Fat>
+						</bodyTypes>
+					</west>
+					<north>
+						<bodyTypes>
+							<Male>(-0.01,0.6)</Male>
+							<Female>(0,0.6)</Female>
+							<Thin>(0,0.6)</Thin>
+							<Hulk>(0,0.6)</Hulk>
+							<Fat>(0,0.6)</Fat>
+						</bodyTypes>
+					</north>
+					<south>
+						<bodyTypes>
+							<Male>(-0.41,0.2)</Male>
+							<Female>(-0.41,0.17)</Female>
+							<Thin>(-0.41,0.17)</Thin>
+							<Hulk>(-0.41,0.17)</Hulk>
+							<Fat>(-0.41,0.17)</Fat>
+						</bodyTypes>
+					</south>
+				</offsets>
+				<inFrontOfBody>false</inFrontOfBody>
+				<hediffGraphics>
+					<EtherRaptorshrimpShell>Parts/Raptorshrimp/raptorshrimp_shell</EtherRaptorshrimpShell>
+				</hediffGraphics>
+			</li>
+			<li>
+				<!-- Shell (in front of body)-->
+				<path>Parts/None/None</path>
+				<bodyPart>Spine</bodyPart>
+				<offsets>
+					<east>
+						<bodyTypes>
+							<Male>(-0.4,0.12)</Male>
+							<Female>(-0.4,0.07)</Female>
+							<Thin>(-0.4,0.2)</Thin>
+							<Hulk>(-0.4,0.2)</Hulk>
+							<Fat>(-0.4,0.2)</Fat>
+						</bodyTypes>
+					</east>
+					<north>
+						<bodyTypes>
+							<Male>(0,0.6)</Male>
+							<Female>(0,0.6)</Female>
+							<Thin>(0,0.6)</Thin>
+							<Hulk>(0,0.6)</Hulk>
+							<Fat>(0,0.6)</Fat>
+						</bodyTypes>
+					</north>
+					<south>
+						<bodyTypes>
+							<Male>(-0.41,0.17)</Male>
+							<Female>(-0.41,0.17)</Female>
+							<Thin>(-0.41,0.17)</Thin>
+							<Hulk>(-0.41,0.17)</Hulk>
+							<Fat>(-0.41,0.17)</Fat>
+						</bodyTypes>
+					</south>
+				</offsets>
+				<inFrontOfBody>true</inFrontOfBody>
+				<hediffGraphics>
+					<EtherRaptorshrimpShell>Parts/Raptorshrimp/raptorshrimp_shell_front</EtherRaptorshrimpShell>
+				</hediffGraphics>
 			</li>
 		</value>
 	</Operation>

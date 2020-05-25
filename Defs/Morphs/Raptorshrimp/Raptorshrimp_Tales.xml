@@ -1,0 +1,15 @@
+﻿<Defs>
+	
+	<TaleDef ParentName="MuzzleTaleBase">
+		<defName>GrewRaptorshrimpFace</defName>
+		<label>grew Raptorshrimp face</label>
+		<rulePack>
+			<rulesStrings>
+				<li>tale_noun->[PAWN_nameDef] grew a Raptorshrimp face</li>
+				<li>tale_noun->[PAWN_nameDef]'s face becoming like that of a giant slug</li>
+				<li>image->[PAWN_nameDef] eyes begin popping out of their skull on stalks[circumstance_group]</li>
+				<li>desc_sentence->[PAWN_nameDef] oozes menacingly at their foe [PAWN_pronoun].</li>
+			</rulesStrings>
+		</rulePack>
+	</TaleDef>
+</Defs>

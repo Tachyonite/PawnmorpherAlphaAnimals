@@ -1,0 +1,29 @@
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Schemas/MorphDef.xsd">
+	<Pawnmorph.MorphDef>
+		<defName>RaptorshrimpMorph</defName>
+		<label>Raptorshrimpmorph</label>
+		<description>Raptorshrimpmorphs are horrendous slug-people who rapidly decay corpses, and generally bring everyone's mood down.</description>
+		<race>AA_RaptorShrimp</race>
+		<classification>Animal</classification>
+		<categories>
+			<li>Temperate</li>
+		</categories>
+		<fullTransformation>PawnmorphRaptorshrimpTF</fullTransformation>
+		<partialTransformation>PawnmorphRaptorshrimpTFPartial</partialTransformation>
+		<raceSettings>
+			<graphicsSettings>
+				<skinColorOverride>(142,150,146)</skinColorOverride>
+				<hairColorOverride>(0,0,0,0)</hairColorOverride>
+			</graphicsSettings>
+			<explicitHybridRace>RaptorshrimpMorph</explicitHybridRace>
+			<transferHumanBodyAddons>true</transferHumanBodyAddons>
+			<requiredMutations>
+				<li>EtherRaptorshrimpTail</li>
+			</requiredMutations>
+		</raceSettings>
+		<transformSettings>
+			<transformationMemory>RaptorshrimpTransformationMemory</transformationMemory>
+			<revertedMemory>RaptorshrimpRevertedMemory</revertedMemory>
+		</transformSettings>
+	</Pawnmorph.MorphDef>
+</Defs>
