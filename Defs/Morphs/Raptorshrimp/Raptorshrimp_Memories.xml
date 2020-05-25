@@ -4,22 +4,22 @@
         <stages>
             <li>
                 <label>morphed</label>
-                <description>I'm slimy, and my mouth waters upsettingly every time I see a dead thing.</description>
+                <description>What the hell am I gonna do with these blade hands?</description>
                 <baseMoodEffect>-3</baseMoodEffect>
             </li>
             <li>
                 <label>morphed</label>
-                <description>It's slime time, baby!</description>
+                <description>Chop chop!</description>
                 <baseMoodEffect>+3</baseMoodEffect>
             </li>
             <li>
                 <label>morphed</label>
-                <description>Raptorshrimps are disgusting enough as it is, now I have to see one every time I look in the mirror!</description>
+                <description>Noooo! I wanted to be a pianist!</description>
                 <baseMoodEffect>-5</baseMoodEffect>
             </li>
             <li>
                 <label>morphed</label>
-                <description>I'm kind of digging the wild field of vision, but people keep making salt jokes around me.</description>
+                <description>I feel like a total badass, but it's a little rough not having any fingers.</description>
                 <baseMoodEffect>+1</baseMoodEffect>
             </li>
         </stages>
@@ -30,17 +30,17 @@
         <stages>
             <li>
                 <label>reverted</label>
-                <description>I'm dry again, and my eyes are back where nature intended.</description>
+                <description>Yes! I can scratch an itch without multiple casualties again!</description>
                 <baseMoodEffect>3</baseMoodEffect>
             </li>
             <li>
                 <label>reverted</label>
-                <description>Eugh, corpses smell so bad now, and my skin feels so dry!</description>
+                <description>I feel so... soft and weak.</description>
                 <baseMoodEffect>-3</baseMoodEffect>
             </li>
             <li>
                 <label>reverted</label>
-                <description>No more wool! Oh, skin, how I missed seeing you...</description>
+                <description>Piano here I come!</description>
                 <baseMoodEffect>10</baseMoodEffect>
             </li>
             <li>
@@ -57,20 +57,20 @@
         <defName>RaptorshrimpFace</defName>
         <stages>
             <li>
-                <label>Slug face</label>
-                <description>Eugh, the way these eyestalks swing around makes me feel queasy.</description>
+                <label>Raptor shrimp face</label>
+                <description>My hairstyle! Nooo!</description>
                 <visible>true</visible>
                 <baseMoodEffect>-1</baseMoodEffect>
             </li>
             <li>
-                <label>Slug face</label>
-                <description>I can see forever!</description>
+                <label>Raptor shrimp face</label>
+                <description>I'm bulletproof!</description>
                 <visible>true</visible>
                 <baseMoodEffect>2</baseMoodEffect>
             </li>
             <li>
-                <label>Slug face</label>
-                <description>Nobody is gonna want to kiss this face! And with this rasping tongue I don't blame them!</description>
+                <label>Raptor shrimp face</label>
+                <description>I'm hideous!</description>
                 <visible>true</visible>
                 <baseMoodEffect>-3</baseMoodEffect>
             </li>
@@ -81,20 +81,20 @@
         <defName>RaptorshrimpTail</defName>
         <stages>
             <li>
-                <label>Slug tail</label>
-                <description>Do you have any idea how much lint gets stuck to this thing?</description>
+                <label>Shrimp tail</label>
+                <description>This thing gets in the way.</description>
                 <visible>true</visible>
                 <baseMoodEffect>-1</baseMoodEffect>
             </li>
             <li>
-                <label>Slug tail</label>
-                <description>Scientifically speaking it's actually a large foot, but either way I can surf around on slime with it. Kowabunga!</description>
+                <label>Shrimp tail</label>
+                <description>I can really glide along with this thing!</description>
                 <visible>true</visible>
                 <baseMoodEffect>1</baseMoodEffect>
             </li>
             <li>
-                <label>Slug tail</label>
-                <description>There's a loathesome bag of goo growing out of me, how do you think I feel?</description>
+                <label>Shrimp tail</label>
+                <description>I had such a cute butt!</description>
                 <visible>true</visible>
                 <baseMoodEffect>-2</baseMoodEffect>
             </li>

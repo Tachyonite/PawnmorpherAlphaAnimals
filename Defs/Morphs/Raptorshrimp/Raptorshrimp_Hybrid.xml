@@ -503,6 +503,14 @@
                 <chanceFactor>0.2</chanceFactor>
             </li>
         </tools>
+		<comps>
+
+			<li Class="AlphaBehavioursAndEvents.CompProperties_Regeneration">
+				<rateInTicks>20</rateInTicks>
+
+			</li>
+
+		</comps>
         <race>
             <thinkTreeMain>Humanlike</thinkTreeMain>
             <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
@@ -539,6 +547,7 @@
                         <minMelanin>0</minMelanin>
                         <maxMelanin>1</maxMelanin>
                     </alienskincolorgen>
+
                     <bodyAddons>
                         <li>
                             <!-- Body Tails -->

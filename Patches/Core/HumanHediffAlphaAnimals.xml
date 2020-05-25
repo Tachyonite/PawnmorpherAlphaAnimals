@@ -1129,8 +1129,8 @@
 						</bodyTypes>
 					</south>
 				</offsets>
+
 				<inFrontOfBody>true</inFrontOfBody>
-				<layerOffset>-0.26</layerOffset>
 				<hediffGraphics>
 					<EtherRaptorshrimpArm>Parts/Raptorshrimp/raptorshrimp_claws_left</EtherRaptorshrimpArm>
 				</hediffGraphics>
@@ -1139,6 +1139,7 @@
 				<!-- Male Left Arm (Behind Body) -->
 				<path>Parts/None/None</path>
 				<bodyPart>left arm</bodyPart>
+				<layerOffset>-0.1</layerOffset>
 				<offsets>
 					<east>
 						<bodyTypes>
@@ -1186,8 +1187,9 @@
 				<!-- Male Right Arm -->
 				<path>Parts/None/None</path>
 				<bodyPart>right arm</bodyPart>
+				<layerOffset>-0.1</layerOffset>
 				<offsets>
-<east>
+					<east>
 						<bodyTypes>
 							<Male>(-0.4,0)</Male>
 							<Female>(-0.4,0)</Female>
@@ -1225,7 +1227,6 @@
 					</south>
 				</offsets>
 				<inFrontOfBody>true</inFrontOfBody>
-				<layerOffset>-0.26</layerOffset>
 				<hediffGraphics>
 					<EtherRaptorshrimpArm>Parts/Raptorshrimp/raptorshrimp_claws_right</EtherRaptorshrimpArm>
 				</hediffGraphics>
@@ -1235,7 +1236,7 @@
 				<path>Parts/None/None</path>
 				<bodyPart>right arm</bodyPart>
 				<offsets>
-<east>
+					<east>
 						<bodyTypes>
 							<Male>(-0.4,0)</Male>
 							<Female>(-0.4,0)</Female>
@@ -1328,6 +1329,7 @@
 				<!-- Shell (in front of body)-->
 				<path>Parts/None/None</path>
 				<bodyPart>Spine</bodyPart>
+				<layerOffset>-0.2</layerOffset>
 				<offsets>
 					<east>
 						<bodyTypes>

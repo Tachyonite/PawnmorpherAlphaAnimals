@@ -18,7 +18,7 @@
 				<capMods>
 					<li>
 						<capacity>Talking</capacity>
-						<offset>-0.60</offset>
+						<offset>-0.40</offset>
 					</li>
 					<li>
 						<capacity>Eating</capacity>
@@ -27,6 +27,8 @@
 				</capMods>
 				<statOffsets>
 					<SocialImpact>-0.10</SocialImpact>
+					<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+					<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
 				</statOffsets>
 			</li>
 			<li>
@@ -48,6 +50,8 @@
 				<label>adapted</label>
 				<statOffsets>
 					<SocialImpact>-0.10</SocialImpact>
+					<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+					<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
 				</statOffsets>
 			</li>
 		</stages>
@@ -60,7 +64,7 @@
 						<capacities>
 							<li>Bite</li>
 						</capacities>
-						<power>6.0</power>
+						<power>12.0</power>
 						<cooldownTime>1.5</cooldownTime>
 						<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
 					</li>
@@ -82,15 +86,45 @@
 		<description>A massive serpentine tail now sprouts from [PAWN_nameDef]'s body. Fear them!</description>
 		<parts>
 			<li>Tail</li>
+			<li>TailLegShrimp</li>
 		</parts>
 		<mutationMemory>RaptorshrimpTail</mutationMemory>
+
 		<stages>
 			<li>
+				<label>unfamiliar</label>
+				<capMods>
+
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.1</offset>
+					</li>
+				</capMods>
 				<statOffsets>
-					<SocialImpact>-0.10</SocialImpact>
+					<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+					<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>1</minSeverity>
+				<label>adapted</label>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.1</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+					<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
 				</statOffsets>
 			</li>
 		</stages>
+		<comps>
+			<li Class="Pawnmorph.Hediffs.CompProperties_MutationSeverityAdjust">
+				<severityPerDay>0.25</severityPerDay>
+			</li>
+		</comps>
 	</Pawnmorph.Hediffs.MutationDef>
 
 	<Pawnmorph.Hediffs.MutationDef ParentName="RaptorshrimpPart">
@@ -108,8 +142,41 @@
 				<statOffsets>
 					<SocialImpact>-0.10</SocialImpact>
 				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>-0.20</offset>
+					</li>
+				</capMods>
 			</li>
 		</stages>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>blade</label>
+						<labelUsedInLogging>False</labelUsedInLogging>
+						<capacities>
+							<li>AA_Pierce</li>
+						</capacities>
+						<power>20.0</power>
+						<cooldownTime>1.5</cooldownTime>
+						<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+						<surpriseAttack>
+						<extraMeleeDamages>
+							<li>
+								<def>Stun</def>
+								<amount>20</amount>
+							</li>
+						</extraMeleeDamages>
+						</surpriseAttack>
+					</li>
+				</tools>
+			</li>
+			<li Class="Pawnmorph.Hediffs.CompProperties_MutationSeverityAdjust">
+				<severityPerDay>0.25</severityPerDay>
+			</li>
+		</comps>
 	</Pawnmorph.Hediffs.MutationDef>
 
 	<Pawnmorph.Hediffs.MutationDef ParentName="RaptorshrimpPart">
@@ -123,6 +190,8 @@
 			<li>
 				<statOffsets>
 					<SocialImpact>-0.10</SocialImpact>
+					<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+					<ArmorRating_Sharp>0.3</ArmorRating_Sharp>
 				</statOffsets>
 			</li>
 		</stages>
@@ -205,7 +274,7 @@
 				<description>The plates are now strong enough to turn away blades.</description>
 				<minSeverity>0.8</minSeverity>
 				<statOffsets>
-					<ArmorRating_Sharp>0.08</ArmorRating_Sharp>
+					<ArmorRating_Sharp>0.05</ArmorRating_Sharp>
 				</statOffsets>
 			</li>
 		</stages>
