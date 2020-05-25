@@ -86,7 +86,7 @@
 		<description>A massive serpentine tail now sprouts from [PAWN_nameDef]'s body. Fear them!</description>
 		<parts>
 			<li>Tail</li>
-			<li>TailLegShrimp</li>
+			<li>TailLeg</li>
 		</parts>
 		<mutationMemory>RaptorshrimpTail</mutationMemory>
 
