@@ -1,5 +1,5 @@
 <Defs>
- 
+
     <BodyDef>
         <defName>RaptorshrimpHybridBody</defName>
         <label>raptoid</label>
@@ -495,14 +495,14 @@
                 <chanceFactor>0.2</chanceFactor>
             </li>
         </tools>
-		<comps>
+        <comps>
 
-			<li Class="AlphaBehavioursAndEvents.CompProperties_Regeneration">
-				<rateInTicks>20</rateInTicks>
+            <li Class="AlphaBehavioursAndEvents.CompProperties_Regeneration">
+                <rateInTicks>20</rateInTicks>
 
-			</li>
+            </li>
 
-		</comps>
+        </comps>
         <race>
             <thinkTreeMain>Humanlike</thinkTreeMain>
             <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
@@ -524,7 +524,7 @@
             <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
         </race>
         <alienRace>
-            <generalSettings>
+            <generalSettings Inherit="false">
                 <humanRecipeImport>true</humanRecipeImport>
                 <alienPartGenerator>
                     <aliencrowntypes>
@@ -535,13 +535,13 @@
                         <li>Narrow_Pointy</li>
                         <li>Narrow_Wide</li>
                     </aliencrowntypes>
-                    <alienskincolorgen Class="ColorGenerator_Options">
+                    <alienskincolorgen Class="ColorGenerator_Options" Inherit="false">
                         <options>
-                    <li>
-                        <weight>10</weight>
-                        <only>RGBA(142,150,146,255)</only>
-                    </li>
-			</options>
+                            <li>
+                                <weight>10</weight>
+                                <only>142,150,146,255</only>
+                            </li>
+                        </options>
                     </alienskincolorgen>
 
                     <bodyAddons>
