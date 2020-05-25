@@ -12,7 +12,7 @@
 		<partialTransformation>PawnmorphSwarmlingTFPartial</partialTransformation>
 		<raceSettings>
 			<graphicsSettings>
-				<skinColorOverride>(126,63,42)</skinColorOverride>
+				<skinColorOverride>(118,57,38)</skinColorOverride>
 				<hairColorOverride>(0,0,0,0)</hairColorOverride>
 			</graphicsSettings>
 		</raceSettings>
