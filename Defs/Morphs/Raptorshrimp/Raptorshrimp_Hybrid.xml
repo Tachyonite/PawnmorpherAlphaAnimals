@@ -524,7 +524,7 @@
             <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
         </race>
         <alienRace>
-            <generalSettings>
+            <generalSettings Inherit="false">
                 <humanRecipeImport>true</humanRecipeImport>
                 <alienPartGenerator>
                     <aliencrowntypes>
@@ -544,10 +544,14 @@
                     		</li>
                 	</options>
            	</alienhaircolorgen>
-		<alienskincolorgen Class="AlienRace.ColorGenerator_SkinColorMelanin">
-                        <minMelanin>0</minMelanin>
-                        <maxMelanin>1</maxMelanin>
-                    </alienskincolorgen>
+		<alienskincolorgen Class="ColorGenerator_Options">
+                	<options>
+                   	 <li>
+                        	<weight>100</weight>
+                       		<only>RGBA(0.5,0.5,0.5,1)</only>
+                   	 </li>
+                	</options>
+            	</alienskincolorgen>
 
                     <bodyAddons>
                         <li>
