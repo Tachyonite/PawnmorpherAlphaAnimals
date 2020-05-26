@@ -2,17 +2,19 @@
 	<Pawnmorph.MorphDef>
 		<defName>RaptorshrimpMorph</defName>
 		<label>Raptorshrimpmorph</label>
-		<description>Raptorshrimpmorphs are horrendous slug-people who rapidly decay corpses, and generally bring everyone's mood down.</description>
+		<description>Raptorshrimpmorphs are blade-handed beasts with amazing regenerative powers. You'd think that would describe the Wolverinemorph, but you'd be wrong.</description>
 		<race>AA_RaptorShrimp</race>
 		<classification>Animal</classification>
 		<categories>
-			<li>Temperate</li>
+			<li>Arid</li>
+			<li>Powerful</li>
+			<li>Tropical</li>
 		</categories>
 		<fullTransformation>PawnmorphRaptorshrimpTF</fullTransformation>
 		<partialTransformation>PawnmorphRaptorshrimpTFPartial</partialTransformation>
 		<raceSettings>
 			<graphicsSettings>
-				<skinColorOverride>(142,150,146)</skinColorOverride>
+				<skinColorOverride>(100,105,105)</skinColorOverride>
 				<hairColorOverride>(0,0,0,0)</hairColorOverride>
 			</graphicsSettings>
 			<explicitHybridRace>RaptorshrimpMorph</explicitHybridRace>

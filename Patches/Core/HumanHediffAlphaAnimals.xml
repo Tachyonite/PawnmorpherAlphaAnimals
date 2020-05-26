@@ -1324,6 +1324,7 @@
 				<hediffGraphics>
 					<EtherRaptorshrimpShell>Parts/Raptorshrimp/raptorshrimp_shell</EtherRaptorshrimpShell>
 				</hediffGraphics>
+				<drawnInBed>false</drawnInBed>
 			</li>
 			<li>
 				<!-- Shell (in front of body)-->

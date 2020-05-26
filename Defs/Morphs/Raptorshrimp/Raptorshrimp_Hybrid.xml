@@ -535,14 +535,15 @@
                         <li>Narrow_Pointy</li>
                         <li>Narrow_Wide</li>
                     </aliencrowntypes>
-                    <alienskincolorgen Class="ColorGenerator_Options" Inherit="false">
-                        <options>
-                            <li>
-                                <weight>10</weight>
-                                <only>142,150,146,255</only>
-                            </li>
-                        </options>
-                    </alienskincolorgen>
+		<alienhaircolorgen Class="ColorGenerator_Options">
+                <options>
+                    <li>
+                        <weight>10</weight>
+                        <only>RGBA(0.51,0.77,0.86,0)</only>
+
+                    </li>
+                </options>
+            </alienhaircolorgen>
 
                     <bodyAddons>
                         <li>
