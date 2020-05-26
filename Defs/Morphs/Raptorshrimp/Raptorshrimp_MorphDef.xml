@@ -14,7 +14,7 @@
 		<partialTransformation>PawnmorphRaptorshrimpTFPartial</partialTransformation>
 		<raceSettings>
 			<graphicsSettings>
-				<skinColorOverride>(100,105,105)</skinColorOverride>
+				<skinColorOverride>(255,105,105)</skinColorOverride>
 				<hairColorOverride>(0,0,0,0)</hairColorOverride>
 			</graphicsSettings>
 			<explicitHybridRace>RaptorshrimpMorph</explicitHybridRace>
