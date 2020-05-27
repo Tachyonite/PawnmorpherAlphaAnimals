@@ -541,10 +541,24 @@
                         <li>Narrow_Pointy</li>
                         <li>Narrow_Wide</li>
                     </aliencrowntypes>
-                    <alienskincolorgen  Class="AlienRace.ColorGenerator_SkinColorMelanin">
-                        <minMelanin>0</minMelanin>
-                        <maxMelanin>1</maxMelanin>
+		<alienhaircolorgen Class="ColorGenerator_Options">
+                	<options>
+                    		<li>
+                       			<weight>10</weight>
+                        		<only>RGBA(0.51,0.77,0.86,0)</only>
+
+                    		</li>
+                	</options>
+           	</alienhaircolorgen>
+		<alienskincolorgen Class="ColorGenerator_Options" Inherit="false">
+			<options>
+				<li>
+                                <weight>10</weight>
+                                <only>168,103,86,255</only>
+                            </li>
+                        </options>
                     </alienskincolorgen>
+
                     <bodyAddons>
                         <li>
                             <!-- Body Tails -->
@@ -584,7 +598,7 @@
                     </bodyAddons>
                 </alienPartGenerator>
             </generalSettings>
-            <graphicPaths></graphicPaths>
+            <graphicPaths Inherit="False"/>
             <hairSettings></hairSettings>
             <thoughtSettings>
                 <cannotReceiveThoughts></cannotReceiveThoughts>

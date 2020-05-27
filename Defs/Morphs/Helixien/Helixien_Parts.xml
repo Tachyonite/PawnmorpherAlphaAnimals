@@ -93,7 +93,57 @@
 			</li>
 		</stages>
 	</Pawnmorph.Hediffs.MutationDef>
-	
+
+	<Pawnmorph.Hediffs.MutationDef ParentName="HelixienPart">
+		<defName>EtherHelixienHand</defName>
+		<label>tentacular fingers</label>
+		<description>Boneless, bendy fingers, covered in slime. Hard to use, but potentially a blessing to a skilled owner.</description>
+		<parts>
+			<li>Hand</li>
+		</parts>
+		<stages>
+			<li Class="Pawnmorph.Hediffs.MutationStage">
+				<minSeverity>-0.5</minSeverity>
+				<label>twisted</label>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>-0.20</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>-0.10</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>1</minSeverity>
+				<label>adapted</label>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>0.20</offset>
+					</li>
+
+				</capMods>
+			</li>
+			<li Class="Pawnmorph.Hediffs.MutationStage">
+				<label>paragon</label>
+				<minSeverity>1.5</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>0.30</offset>
+					</li>
+				</capMods>
+
+			</li>
+		</stages>
+	</Pawnmorph.Hediffs.MutationDef>
 	
     <RulePackDef ParentName="CoveringMutationLogPackBase">
         <defName>SlimeGrowthLogPack</defName>

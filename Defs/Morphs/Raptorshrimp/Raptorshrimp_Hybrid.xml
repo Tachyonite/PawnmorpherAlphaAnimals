@@ -548,7 +548,7 @@
                 	<options>
                    	 <li>
                         	<weight>100</weight>
-                       		<only>RGBA(0.5,0.5,0.5,1)</only>
+                       		<only>RGBA(0.5,0.6,0.55,1)</only>
                    	 </li>
                 	</options>
             	</alienskincolorgen>
@@ -590,7 +590,7 @@
                     </bodyAddons>
                 </alienPartGenerator>
             </generalSettings>
-            <graphicPaths></graphicPaths>
+            <graphicPaths Inherit="False"/>
             <hairSettings></hairSettings>
             <thoughtSettings>
                 <cannotReceiveThoughts></cannotReceiveThoughts>
