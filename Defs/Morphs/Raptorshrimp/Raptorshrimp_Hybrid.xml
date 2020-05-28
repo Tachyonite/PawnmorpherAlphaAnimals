@@ -538,7 +538,7 @@
 		<alienhaircolorgen Class="ColorGenerator_Options">
                 	<options>
                     		<li>
-                       			<weight>10</weight>
+                       			<weight>100</weight>
                         		<only>RGBA(0.51,0.77,0.86,0)</only>
 
                     		</li>

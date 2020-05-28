@@ -1,0 +1,24 @@
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Schemas/MorphDef.xsd">
+	<Pawnmorph.MorphDef>
+		<defName>JungleliskMorph</defName>
+		<label>jungleliskmorph</label>
+		<description>Jungleliskmorphs are mossy green arachnoid beings, with a venomous bite and an uncanny ability to produce morphsilk. Just don't ask where it comes from.</description>
+		<race>AA_Junglelisk</race>
+		<classification>Animal</classification>
+		<categories>
+			<li>Temperate</li>
+		</categories>
+		<fullTransformation>PawnmorphJungleliskTF</fullTransformation>
+		<partialTransformation>PawnmorphJungleliskTFPartial</partialTransformation>
+		<raceSettings>
+			<graphicsSettings>
+				<skinColorOverride>(128,138,79)</skinColorOverride>
+				<hairColorOverride>(0,0,0,0)</hairColorOverride>
+			</graphicsSettings>
+		</raceSettings>
+		<transformSettings>
+			<transformationMemory>JungleliskTransformationMemory</transformationMemory>
+			<revertedMemory>JungleliskRevertedMemory</revertedMemory>
+		</transformSettings>
+	</Pawnmorph.MorphDef>
+</Defs>

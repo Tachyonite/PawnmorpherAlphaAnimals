@@ -1,0 +1,323 @@
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Schemas/MutationDef.xsd">
+	<Pawnmorph.Hediffs.MutationDef Name="JungleliskPart" ParentName="PawnmorphPart" Abstract="true">
+		<classInfluence>JungleliskMorph</classInfluence>
+	</Pawnmorph.Hediffs.MutationDef>
+
+	<Pawnmorph.Hediffs.MutationDef ParentName="JungleliskPart">
+		<defName>EtherJungleliskFangs</defName>
+		<label>spider fangs</label>
+		<description>A pair of vicious, venomous fangs now protrude from [PAWN_nameDef]'s face. They seem to twitch and chitter on their own.</description>
+		<mutationTale>GrewJungleliskFangs</mutationTale>
+		<mutationMemory>JungleliskFangs</mutationMemory>
+<stages>
+			<li>
+				<label>unfamiliar</label>
+				<capMods>
+					<li>
+						<capacity>Talking</capacity>
+						<offset>-0.50</offset>
+					</li>
+					<li>
+						<capacity>Eating</capacity>
+						<offset>-0.10</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<SocialImpact>-0.10</SocialImpact>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>1</minSeverity>
+				<label>adapted</label>
+				<capMods>
+					<li>
+						<capacity>Talking</capacity>
+						<offset>-0.10</offset>
+					</li>
+					<li>
+						<capacity>Eating</capacity>
+						<offset>-0.10</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<SocialImpact>-0.10</SocialImpact>
+				</statOffsets>
+			</li>
+		</stages>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>venom-fangs</label>
+						<capacities>
+							<li>ToxicBite</li>
+						</capacities>
+						<power>12</power>
+						<cooldownTime>2</cooldownTime>
+						<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+						<surpriseAttack>
+							<extraMeleeDamages>
+								<li>
+									<def>Stun</def>
+									<amount>14</amount>
+								</li>
+							</extraMeleeDamages>
+						</surpriseAttack>
+					</li>
+					<li>
+						<label>muta-fangs</label>
+						<capacities>
+							<li>MutagenicStab</li>
+						</capacities>
+						<power>12</power>
+						<cooldownTime>2</cooldownTime>
+						<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+						<surpriseAttack>
+							<extraMeleeDamages>
+								<li>
+									<def>Stun</def>
+									<amount>14</amount>
+								</li>
+							</extraMeleeDamages>
+						</surpriseAttack>
+					</li>
+				</tools>
+			</li>
+			<li Class="Pawnmorph.Hediffs.CompProperties_MutationSeverityAdjust">
+				<severityPerDay>0.25</severityPerDay>
+			</li>
+		</comps>
+		<parts>
+			<li>Jaw</li>
+		</parts>
+	</Pawnmorph.Hediffs.MutationDef>
+
+	<Pawnmorph.Hediffs.MutationDef ParentName="JungleliskPart">
+		<defName>EtherJungleliskHair</defName>
+		<label>junglelisk headplate</label>
+		<description>An armoured headcrest. Welcome to the jungle!</description>
+		<parts>
+			<li>Skull</li>
+		</parts>
+		<stages>
+			<li>
+				<statOffsets>
+					<SocialImpact>0.10</SocialImpact>
+				</statOffsets>
+			</li>
+		</stages>
+	</Pawnmorph.Hediffs.MutationDef>
+
+	<Pawnmorph.Hediffs.MutationDef ParentName="JungleliskPart">
+		<defName>EtherJungleliskExtraEyes</defName>
+		<label>extra spider eyes</label>
+		<description>Additional beady eyes, they never blink, and frankly it's quite spooky.</description>
+		<parts>
+			<li>Head</li>
+		</parts>
+		<mutationMemory>JungleliskEyes</mutationMemory>
+		<stages>
+			<li>
+				<statOffsets>
+					<SocialImpact>-0.10</SocialImpact>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Sight</capacity>
+						<offset>0.2</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</Pawnmorph.Hediffs.MutationDef>
+
+<Pawnmorph.Hediffs.MutationDef ParentName="JungleliskPart">
+		<defName>EtherJungleliskEye</defName>
+		<label>jungle spider eye</label>
+		<description>[PAWN_nameDef]'s eyes don't blink any more, and they're black, lifeless eyes, like a doll's eyes.</description>
+		<parts>
+			<li>Eye</li>
+		</parts>
+		<stages>
+			<li>
+				<statOffsets>
+					<SocialImpact>-0.10</SocialImpact>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Sight</capacity>
+						<offset>0.2</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</Pawnmorph.Hediffs.MutationDef>
+
+<Pawnmorph.Hediffs.MutationDef ParentName="JungleliskPart">
+		<defName>EtherJSpiderWeave</defName>
+		<label>junglelisk spinnerets</label>
+		<description>[PAWN_nameDef]'s torso bears Junglelisk spinnerets, genetically engineered spider organs that produce synthread.</description>
+		<initialSeverity>0.01</initialSeverity>		
+		<comps>
+			<li Class="Pawnmorph.HediffCompProperties_Production">
+				<thought>ShavedMyself</thought>
+				<etherBondThought>ShavedMyselfBond</etherBondThought>
+				<etherBrokenThought>ShavedMyselfBroken</etherBrokenThought>
+				<stages>
+					<li>
+						<daysToProduce>1</daysToProduce>
+						<amount>5</amount>
+						<resource>Synthread</resource>
+					</li>
+					<li>
+						<daysToProduce>0.5</daysToProduce>
+						<amount>4</amount>
+						<resource>Synthread</resource>
+					</li>
+					<li>
+						<daysToProduce>0.25</daysToProduce>
+						<amount>3</amount>
+						<resource>Synthread</resource>
+					</li>
+					<li>
+						<daysToProduce>0.1</daysToProduce>
+						<amount>2</amount>
+						<resource>Synthread</resource>
+						<thought>ProductiveBliss</thought>
+					</li>
+				</stages>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<hungerRateFactor>1.0</hungerRateFactor>
+			</li>
+			<li>
+				<minSeverity>0.3</minSeverity>
+				<hungerRateFactor>1.3</hungerRateFactor>
+				<label>productive</label>
+			</li>
+			<li>
+				<minSeverity>0.6</minSeverity>
+				<hungerRateFactor>1.6</hungerRateFactor>
+				<label>very productive</label>
+			</li>
+			<li>
+				<minSeverity>0.9</minSeverity>
+				<hungerRateFactor>2.0</hungerRateFactor>
+				<label>productive bliss</label>
+				<hediffGivers>
+					<li Class="HediffGiver_RandomDrugEffect">
+						<hediff>CatatonicBreakdown</hediff>
+						<minSeverity>0.50</minSeverity>
+						<baseMtbDays>2</baseMtbDays>
+						<partsToAffect>
+							<li>Brain</li>
+						</partsToAffect>
+					</li>
+				</hediffGivers>
+			</li>
+		</stages>
+		<parts>
+			<li>Waist</li>
+		</parts>
+	</Pawnmorph.Hediffs.MutationDef>
+	
+    <RulePackDef ParentName="CoveringMutationLogPackBase">
+        <defName>JSpiderGrowthLogPack</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>label->spider fuzz</li>
+                <li>bulk_label->coating</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+	<Pawnmorph.Hediffs.MutationDef ParentName="PawnmorphSkinPart">
+		<defName>EtherJungleSpiderLimb</defName>
+		<label>spider fuzz</label>
+		<description>Strange hair, part downy and part coarse, has spread over this limb. It conceals the resilient, chitinous skin beneath it.</description>
+		<classInfluence>JungleliskMorph</classInfluence>
+		<parts>
+			<li>Torso</li>
+			<li>Head</li>
+			<li>Ear</li>
+			<li>Arm</li>
+			<li>Hand</li>
+			<li>Leg</li>
+			<li>Foot</li>
+			<li>Tail</li>
+		</parts>
+		<mutationLogRulePack>JSpiderGrowthLogPack</mutationLogRulePack>
+		<countToAffect>2</countToAffect>
+		<categories>
+			<li>Minor</li>
+		</categories>
+		<comps>
+			<li Class="Pawnmorph.Hediffs.CompProperties_MutationSeverityAdjust">
+				<severityPerDay>0.33</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li Class="Pawnmorph.Hediffs.MutationStage">
+				<labelOverride>coarse hairs</labelOverride>
+				<description>Strange, scattered hairs are growing on this skin. They're coarse, and not like human hair at all.</description>
+
+				<minSeverity>0</minSeverity>
+				<statOffsets>
+					<ArmorRating_Sharp>0.001</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.001</ArmorRating_Blunt>
+				</statOffsets>
+			</li>
+			<li Class="Pawnmorph.Hediffs.MutationStage">
+				<labelOverride>thin fuzz</labelOverride>
+				<description>The coarse hairs have been joined by a soft, downy fuzz. It's nice and warm.</description>
+				<minSeverity>0.2</minSeverity>
+				<statOffsets>
+					<ArmorRating_Sharp>0.005</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.005</ArmorRating_Blunt>
+					<ComfyTemperatureMax>3</ComfyTemperatureMax>
+				</statOffsets>
+			</li>
+
+			<li Class="Pawnmorph.Hediffs.MutationStage">
+				<labelOverride>thick fuzz</labelOverride>
+				<description>The skin here has begun to harden and the fuzz has gotten much thicker.</description>
+				<minSeverity>0.4</minSeverity>
+				<statOffsets>
+					<ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+					<ArmorRating_Heat>0.005</ArmorRating_Heat>
+					<ComfyTemperatureMax>4</ComfyTemperatureMax>
+				</statOffsets>
+			</li>
+			<li Class="Pawnmorph.Hediffs.MutationStage">
+				<labelOverride>fuzzy chitin</labelOverride>
+				<description>The skin here has hardened further, forming a tough shell, and the hair just gets thicker and thicker.</description>
+
+				<minSeverity>0.6</minSeverity>
+				<statOffsets>
+					<ArmorRating_Sharp>0.02</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+					<ArmorRating_Heat>0.01</ArmorRating_Heat>
+					<ComfyTemperatureMax>5</ComfyTemperatureMax>
+				</statOffsets>
+			</li>
+			<li Class="Pawnmorph.Hediffs.MutationStage">
+				<labelOverride>fluffy chitin</labelOverride>
+				<description>The hair is now so thick and fluffy that it can turn away blades and soften blows. The chitin below it is just the 'ice'-ing on the cake. Sorry.</description>
+				<minSeverity>0.8</minSeverity>
+				<statOffsets>
+					<ArmorRating_Sharp>0.04</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.04</ArmorRating_Blunt>
+					<ArmorRating_Heat>0.02</ArmorRating_Heat>
+					<ComfyTemperatureMin>-1</ComfyTemperatureMin>
+					<ComfyTemperatureMax>6</ComfyTemperatureMax>
+				</statOffsets>
+			</li>
+		</stages>
+	</Pawnmorph.Hediffs.MutationDef>
+	
+	
+</Defs>

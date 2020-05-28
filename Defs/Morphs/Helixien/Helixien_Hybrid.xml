@@ -530,7 +530,7 @@
             <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
         </race>
         <alienRace>
-            <generalSettings>
+            <generalSettings Inherit="false">
                 <humanRecipeImport>true</humanRecipeImport>
                 <alienPartGenerator>
                     <aliencrowntypes>

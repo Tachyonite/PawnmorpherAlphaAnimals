@@ -1,0 +1,127 @@
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Schemas/ThoughtDef.xsd">
+    <ThoughtDef ParentName="OutlookMemoryBase">
+		<defName>JungleliskTransformationMemory</defName>
+        <stages>
+            <li>
+                <label>morphed</label>
+                <description>Lots of people are afraid of spiders, and now I am one!</description>
+                <baseMoodEffect>-3</baseMoodEffect>
+            </li>
+            <li>
+                <label>morphed</label>
+                <description>Spider-me, spider-me, da dada dada, spider-me</description>
+                <baseMoodEffect>+3</baseMoodEffect>
+            </li>
+            <li>
+                <label>morphed</label>
+                <description>...I'M scared of spiders and now I am one!</description>
+                <baseMoodEffect>-5</baseMoodEffect>
+            </li>
+            <li>
+                <label>morphed</label>
+                <description>I'm kinda cute for a horrendous spider freak!</description>
+                <baseMoodEffect>+1</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+	
+    <ThoughtDef ParentName="OutlookMemoryBase">
+		<defName>JungleliskRevertedMemory</defName>
+        <stages>
+            <li>
+                <label>reverted</label>
+                <description>Back to a normal number of eyes, and a normal amount of hair!</description>
+                <baseMoodEffect>3</baseMoodEffect>
+            </li>
+            <li>
+                <label>reverted</label>
+                <description>Spider man no more!? But I liked being a spider man!</description>
+                <baseMoodEffect>-3</baseMoodEffect>
+            </li>
+            <li>
+                <label>reverted</label>
+                <description>Spider man no more!</description>
+                <baseMoodEffect>10</baseMoodEffect>
+            </li>
+            <li>
+                <label>reverted</label>
+                <description>I'm human again? I think I wanted the opposite of this.</description>
+                <baseMoodEffect>-5</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+
+    <ThoughtDef ParentName="OutlookMemoryBase">
+        <durationDays>1</durationDays>
+        <defName>JungleliskEyes</defName>
+        <stages>
+            <li>
+                <label>Spider eyes</label>
+                <description>I was happy with just two eyes!</description>
+                <visible>true</visible>
+                <baseMoodEffect>-1</baseMoodEffect>
+            </li>
+            <li>
+                <label>Spider eyes</label>
+                <description>I'm a real monster in staring contests now... and in hunting prey.</description>
+                <visible>true</visible>
+                <baseMoodEffect>2</baseMoodEffect>
+            </li>
+            <li>
+                <label>Spider eyes</label>
+                <description>It's much, MUCH harder to cover my eyes when something horrible happens now. And something horrible happens every day here.</description>
+                <visible>true</visible>
+                <baseMoodEffect>-3</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+    <ThoughtDef ParentName="OutlookMemoryBase">
+        <durationDays>1</durationDays>
+        <defName>JungleliskFangs</defName>
+        <stages>
+            <li>
+                <label>Spider fangs</label>
+                <description>I could've had spider-strength, but I got these instead...</description>
+                <visible>true</visible>
+                <baseMoodEffect>-1</baseMoodEffect>
+            </li>
+            <li>
+                <label>Spider fangs</label>
+                <description>My enemies will tremble in fear when they see these babies!</description>
+                <visible>true</visible>
+                <baseMoodEffect>1</baseMoodEffect>
+            </li>
+            <li>
+                <label>Spider fangs</label>
+                <description>I managed to make two holes in my hand trying to pick my nose. This sucks.</description>
+                <visible>true</visible>
+                <baseMoodEffect>-2</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+    <ThoughtDef ParentName="OutlookMemoryBase">
+        <durationDays>1</durationDays>
+        <defName>JungleliskSkin</defName>
+        <stages>
+            <li>
+                <label>Spider fuzz</label>
+                <description>I'm gonna have to spend so much time getting this white fuzz out of my clothes.</description>
+                <visible>true</visible>
+                <baseMoodEffect>-1</baseMoodEffect>
+            </li>
+            <li>
+                <label>Spider fuzz</label>
+                <description>I'm cosy AND cute!</description>
+                <visible>true</visible>
+                <baseMoodEffect>1</baseMoodEffect>
+            </li>
+            <li>
+                <label>Spider fuzz</label>
+                <description>Oh god, this is one worse than leprosy!</description>
+                <visible>true</visible>
+                <baseMoodEffect>-2</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+</Defs>

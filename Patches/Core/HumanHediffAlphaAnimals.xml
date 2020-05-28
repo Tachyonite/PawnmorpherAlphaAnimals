@@ -13,6 +13,7 @@
 				<hediffGraphics>
 					<EtherBlizzariskFangs>Parts/Blizzarisk/blizzarisk_mouth</EtherBlizzariskFangs>
 					<EtherFeraliskFangs>Parts/Feralisk/feralisk_mouth</EtherFeraliskFangs>
+					<EtherJungleliskFangs>Parts/Junglelisk/junglelisk_mouth</EtherJungleliskFangs>
 				</hediffGraphics>
 				<hiddenUnderApparelFor>
 					<li>FullHead</li>
@@ -60,6 +61,7 @@
 				<hediffGraphics>
 					<EtherBlizzariskFangs>Parts/Blizzarisk/blizzarisk_mouth</EtherBlizzariskFangs>
 					<EtherFeraliskFangs>Parts/Feralisk/feralisk_mouth</EtherFeraliskFangs>
+					<EtherJungleliskFangs>Parts/Junglelisk/junglelisk_mouth</EtherJungleliskFangs>
 				</hediffGraphics>
 				<hiddenUnderApparelFor>
 					<li>FullHead</li>
@@ -707,6 +709,7 @@
 				<drawForFemale>false</drawForFemale>
 				<hediffGraphics>
 					<EtherBlizzariskHair>Parts/Blizzarisk/blizzarisk_hair</EtherBlizzariskHair>
+					<EtherJungleliskHair>Parts/Junglelisk/junglelisk_hair</EtherJungleliskHair>
 				</hediffGraphics>
 				<hiddenUnderApparelFor>
 					<li>UpperHead</li>
@@ -800,6 +803,7 @@
 				<drawForMale>false</drawForMale>
 				<hediffGraphics>
 					<EtherBlizzariskHair>Parts/Blizzarisk/blizzarisk_hair</EtherBlizzariskHair>
+					<EtherJungleliskHair>Parts/Junglelisk/junglelisk_hair</EtherJungleliskHair>
 				</hediffGraphics>
 				<hiddenUnderApparelFor>
 					<li>UpperHead</li>
@@ -933,6 +937,7 @@
 					<EtherFeraliskExtraEyes>Parts/Feralisk/feralisk_eyes</EtherFeraliskExtraEyes>
 					<EtherSwarmlingHead>Parts/Swarmling/Swarmling_Head</EtherSwarmlingHead>
 					<EtherRaptorshrimpFace>Parts/Raptorshrimp/raptorshrimp_head</EtherRaptorshrimpFace>
+					<EtherJungleliskExtraEyes>Parts/Junglelisk/junglelisk_eyes</EtherJungleliskExtraEyes>
 				</hediffGraphics>
 				<hiddenUnderApparelFor>
 					<li>FullHead</li>
@@ -996,6 +1001,7 @@
 					<EtherFeraliskExtraEyes>Parts/Feralisk/feralisk_eyes</EtherFeraliskExtraEyes>
 					<EtherSwarmlingHead>Parts/Swarmling/Swarmling_Head</EtherSwarmlingHead>
 					<EtherRaptorshrimpFace>Parts/Raptorshrimp/raptorshrimp_head</EtherRaptorshrimpFace>
+					<EtherJungleliskExtraEyes>Parts/Junglelisk/junglelisk_eyes</EtherJungleliskExtraEyes>
 				</hediffGraphics>
 				<hiddenUnderApparelFor>
 					<li>FullHead</li>
