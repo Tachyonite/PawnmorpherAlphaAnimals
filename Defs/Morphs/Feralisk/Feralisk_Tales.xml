@@ -23,7 +23,7 @@
 				<li>tale_noun->[PAWN_nameDef] grew a pair of spider fangs</li>
 				<li>tale_noun->[PAWN_nameDef]'s face becoming like an arachnoid creature</li>
 				<li>image->[PAWN_nameDef] has a pair of huge spider fangs burst suddenly from their face[circumstance_group]</li>
-				<li>desc_sentence->[PAWN_nameDef] bares their fangs menacingly at their foe [PAWN_pronoun].</li>
+				<li>desc_sentence->[PAWN_nameDef] bares their fangs menacingly at their foes.</li>
 			</rulesStrings>
 		</rulePack>
 	</TaleDef>

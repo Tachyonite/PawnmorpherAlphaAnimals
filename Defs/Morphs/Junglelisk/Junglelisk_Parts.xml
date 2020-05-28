@@ -228,7 +228,7 @@
         <defName>JSpiderGrowthLogPack</defName>
         <rulePack>
             <rulesStrings>
-                <li>label->spider fuzz</li>
+                <li>label->spider moss</li>
                 <li>bulk_label->coating</li>
             </rulesStrings>
         </rulePack>
@@ -236,8 +236,8 @@
 
 	<Pawnmorph.Hediffs.MutationDef ParentName="PawnmorphSkinPart">
 		<defName>EtherJungleSpiderLimb</defName>
-		<label>spider fuzz</label>
-		<description>Strange hair, part downy and part coarse, has spread over this limb. It conceals the resilient, chitinous skin beneath it.</description>
+		<label>spider moss</label>
+		<description>Strange mossy growth has spread over this limb. It conceals the resilient, chitinous skin beneath it.</description>
 		<classInfluence>JungleliskMorph</classInfluence>
 		<parts>
 			<li>Torso</li>
@@ -272,7 +272,7 @@
 			</li>
 			<li Class="Pawnmorph.Hediffs.MutationStage">
 				<labelOverride>thin fuzz</labelOverride>
-				<description>The coarse hairs have been joined by a soft, downy fuzz. It's nice and warm.</description>
+				<description>The coarse hairs have been joined by a mossy coating. It's damp and keeps the skin cool.</description>
 				<minSeverity>0.2</minSeverity>
 				<statOffsets>
 					<ArmorRating_Sharp>0.005</ArmorRating_Sharp>
@@ -283,7 +283,7 @@
 
 			<li Class="Pawnmorph.Hediffs.MutationStage">
 				<labelOverride>thick fuzz</labelOverride>
-				<description>The skin here has begun to harden and the fuzz has gotten much thicker.</description>
+				<description>The skin here has begun to harden and the moss has gotten thicker and greener.</description>
 				<minSeverity>0.4</minSeverity>
 				<statOffsets>
 					<ArmorRating_Sharp>0.01</ArmorRating_Sharp>
@@ -293,8 +293,8 @@
 				</statOffsets>
 			</li>
 			<li Class="Pawnmorph.Hediffs.MutationStage">
-				<labelOverride>fuzzy chitin</labelOverride>
-				<description>The skin here has hardened further, forming a tough shell, and the hair just gets thicker and thicker.</description>
+				<labelOverride>green chitin</labelOverride>
+				<description>The skin here has hardened further, forming a tough shell, still dusted with moss.</description>
 
 				<minSeverity>0.6</minSeverity>
 				<statOffsets>
@@ -305,8 +305,8 @@
 				</statOffsets>
 			</li>
 			<li Class="Pawnmorph.Hediffs.MutationStage">
-				<labelOverride>fluffy chitin</labelOverride>
-				<description>The hair is now so thick and fluffy that it can turn away blades and soften blows. The chitin below it is just the 'ice'-ing on the cake. Sorry.</description>
+				<labelOverride>mossy chitin</labelOverride>
+				<description>The skin here has hardened fully into chitin. The mossy coating provides camoflague and temperature protection in one.</description>
 				<minSeverity>0.8</minSeverity>
 				<statOffsets>
 					<ArmorRating_Sharp>0.04</ArmorRating_Sharp>

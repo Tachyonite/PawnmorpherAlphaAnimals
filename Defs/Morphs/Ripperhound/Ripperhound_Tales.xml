@@ -1,6 +1,6 @@
 ﻿<Defs>
 	<TaleDef ParentName="MutationTaleBase">
-		<defName>StartsGrowingJSpiderFur</defName>
+		<defName>StartsGrowingRipperhoundskin</defName>
 		<label>started growing spider fur</label>
 		<rulePack>
 			<rulesStrings>
@@ -16,14 +16,14 @@
 	</TaleDef>
 	
 	<TaleDef ParentName="MuzzleTaleBase">
-		<defName>GrewJungleliskFangs</defName>
+		<defName>GrewRipperhoundFangs</defName>
 		<label>grew spider fangs</label>
 		<rulePack>
 			<rulesStrings>
-				<li>tale_noun->[PAWN_nameDef] grew a pair of spider fangs</li>
-				<li>tale_noun->[PAWN_nameDef]'s face becoming like an arachnoid creature</li>
-				<li>image->[PAWN_nameDef] has a pair of huge spider fangs burst suddenly from their face[circumstance_group]</li>
-				<li>desc_sentence->[PAWN_nameDef] bares their fangs menacingly at their foes.</li>
+				<li>tale_noun->[PAWN_nameDef] grew a big mouthful of teeth</li>
+				<li>tale_noun->[PAWN_nameDef]'s face becoming like an genetically engineered murderhound</li>
+				<li>image->[PAWN_nameDef] has a set of huge ripper hound fangs burst suddenly from their face[circumstance_group]</li>
+				<li>desc_sentence->[PAWN_nameDef] bares their fangs menacingly at the onlookers.</li>
 			</rulesStrings>
 		</rulePack>
 	</TaleDef>

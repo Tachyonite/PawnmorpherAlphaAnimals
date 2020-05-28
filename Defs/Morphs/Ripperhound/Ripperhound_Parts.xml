@@ -1,0 +1,233 @@
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Schemas/MutationDef.xsd">
+	<Pawnmorph.Hediffs.MutationDef Name="RipperhoundPart" ParentName="PawnmorphPart" Abstract="true">
+		<classInfluence>RipperhoundMorph</classInfluence>
+	</Pawnmorph.Hediffs.MutationDef>
+
+	<Pawnmorph.Hediffs.MutationDef ParentName="RipperhoundPart">
+		<defName>EtherRipperhoundFangs</defName>
+		<label>ripper hound maw</label>
+		<description>Do you wanna know how [PAWN_nameDef] got these teeth? Severe mutagen exposure! Strong enough to rend insectoid carapace, not great for enunciation.</description>
+		<mutationTale>GrewRipperhoundFangs</mutationTale>
+		<mutationMemory>RipperhoundFangs</mutationMemory>
+<stages>
+			<li>
+				<label>unfamiliar</label>
+				<capMods>
+					<li>
+						<capacity>Talking</capacity>
+						<offset>-0.50</offset>
+					</li>
+					<li>
+						<capacity>Eating</capacity>
+						<offset>-0.10</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<SocialImpact>-0.10</SocialImpact>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>1</minSeverity>
+				<label>adapted</label>
+				<capMods>
+					<li>
+						<capacity>Talking</capacity>
+						<offset>-0.10</offset>
+					</li>
+					<li>
+						<capacity>Eating</capacity>
+						<offset>0.40</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<SocialImpact>-0.10</SocialImpact>
+				</statOffsets>
+			</li>
+		</stages>
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+				      <li>
+        				<capacities>
+          				<li>Bite</li>
+        				</capacities>
+        				<power>18</power>
+        				<cooldownTime>2.0</cooldownTime>
+       					 <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        				<chanceFactor>0.4</chanceFactor>
+      					</li>	
+				</tools>
+			</li>
+			<li Class="Pawnmorph.Hediffs.CompProperties_MutationSeverityAdjust">
+				<severityPerDay>0.25</severityPerDay>
+			</li>
+		</comps>
+		<parts>
+			<li>Jaw</li>
+		</parts>
+	</Pawnmorph.Hediffs.MutationDef>
+
+	<Pawnmorph.Hediffs.MutationDef ParentName="RipperhoundPart">
+		<defName>EtherRipperhoundTail</defName>
+		<label>ripper hound tail</label>
+		<description>A cute lil' tail. Not the most useful aspect of the ripper hound's morphology.</description>
+		<parts>
+			<li>Pelvis</li>
+		</parts>
+		<stages>
+			<li>
+				<statOffsets>
+					<SocialImpact>0.10</SocialImpact>
+				</statOffsets>
+			</li>
+		</stages>
+	</Pawnmorph.Hediffs.MutationDef>
+
+
+<Pawnmorph.Hediffs.MutationDef ParentName="RipperhoundPart">
+		<defName>EtherRipperhoundEye</defName>
+		<label>ripper hound sensory organ</label>
+		<description>[PAWN_nameDef]'s eyes have been replaced with these well, very hard to see sensory organs. They can still see, somehow, but people find making eye contact with them understandably difficult.</description>
+		<parts>
+			<li>Eye</li>
+		</parts>
+		<stages>
+			<li>
+				<statOffsets>
+					<SocialImpact>-0.10</SocialImpact>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Sight</capacity>
+						<offset>0.2</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</Pawnmorph.Hediffs.MutationDef>
+
+<Pawnmorph.Hediffs.MutationDef ParentName="RipperhoundPart">
+		<defName>EtherRipperhoundArm</defName>
+		<label>ripper hound ripper claw</label>
+		<description>The famous appendage that gives the ripper hound its name now graces [PAWN_nameDef]'s back. Tears through insectoids, and most things, like butter.</description>
+		<initialSeverity>0.01</initialSeverity>		
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+      					<li>
+        				<label>ripper claw</label>
+        				<capacities>
+          				<li>AA_ExtraDamageInsectoidsClaws</li>
+        				</capacities>
+        				<power>16</power>
+        				<cooldownTime>1.5</cooldownTime>
+            				</li>
+				</tools>
+			</li>
+			<li Class="Pawnmorph.Hediffs.CompProperties_MutationSeverityAdjust">
+				<severityPerDay>0.25</severityPerDay>
+			</li>
+		</comps>
+		<parts>
+			<li>Shoulder</li>
+		</parts>
+	</Pawnmorph.Hediffs.MutationDef>
+	
+    <RulePackDef ParentName="CoveringMutationLogPackBase">
+        <defName>RipperhoundGrowthLogPack</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>label->ripper hound hide</li>
+                <li>bulk_label->coating</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+	<Pawnmorph.Hediffs.MutationDef ParentName="PawnmorphSkinPart">
+		<defName>EtherRipperLimb</defName>
+		<label>ripper hound hide</label>
+		<description>Tough hide, designed to deflect insectoid mandibles, now covers this limb.</description>
+		<classInfluence>RipperhoundMorph</classInfluence>
+		<parts>
+			<li>Torso</li>
+			<li>Head</li>
+			<li>Ear</li>
+			<li>Arm</li>
+			<li>Hand</li>
+			<li>Leg</li>
+			<li>Foot</li>
+			<li>Tail</li>
+		</parts>
+		<mutationLogRulePack>RipperhoundGrowthLogPack</mutationLogRulePack>
+		<countToAffect>2</countToAffect>
+		<categories>
+			<li>Minor</li>
+		</categories>
+		<comps>
+			<li Class="Pawnmorph.Hediffs.CompProperties_MutationSeverityAdjust">
+				<severityPerDay>0.33</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li Class="Pawnmorph.Hediffs.MutationStage">
+				<labelOverride>thick skin</labelOverride>
+				<description>The skin here has thickened like a callous</description>
+
+				<minSeverity>0</minSeverity>
+				<statOffsets>
+					<ArmorRating_Sharp>0.001</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.001</ArmorRating_Blunt>
+				</statOffsets>
+			</li>
+			<li Class="Pawnmorph.Hediffs.MutationStage">
+				<labelOverride>tough skin</labelOverride>
+				<description>The skin has thickened further still, becoming resistant to impact and cutting.</description>
+				<minSeverity>0.2</minSeverity>
+				<statOffsets>
+					<ArmorRating_Sharp>0.005</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.005</ArmorRating_Blunt>
+				</statOffsets>
+			</li>
+
+			<li Class="Pawnmorph.Hediffs.MutationStage">
+				<labelOverride>thin hide</labelOverride>
+				<description>The skin here is now more like cowhide than human skin.</description>
+				<minSeverity>0.4</minSeverity>
+				<statOffsets>
+					<ArmorRating_Sharp>0.01</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+					<ArmorRating_Heat>0.005</ArmorRating_Heat>
+					<ComfyTemperatureMin>-1</ComfyTemperatureMin>
+					<ComfyTemperatureMax>1</ComfyTemperatureMax>
+				</statOffsets>
+			</li>
+			<li Class="Pawnmorph.Hediffs.MutationStage">
+				<labelOverride>thick hide</labelOverride>
+				<description>The skin here is now less like cowhide and more like toughened leather.</description>
+
+				<minSeverity>0.6</minSeverity>
+				<statOffsets>
+					<ArmorRating_Sharp>0.02</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.02</ArmorRating_Blunt>
+					<ArmorRating_Heat>0.01</ArmorRating_Heat>					
+					<ComfyTemperatureMin>-2</ComfyTemperatureMin>
+					<ComfyTemperatureMax>2</ComfyTemperatureMax>
+				</statOffsets>
+			</li>
+			<li Class="Pawnmorph.Hediffs.MutationStage">
+				<labelOverride>ripper hide</labelOverride>
+				<description>The skin here has reached the full resilience of true ripper hound hide. Insectoids beware!</description>
+				<minSeverity>0.8</minSeverity>
+				<statOffsets>
+					<ArmorRating_Sharp>0.04</ArmorRating_Sharp>
+					<ArmorRating_Blunt>0.04</ArmorRating_Blunt>
+					<ArmorRating_Heat>0.02</ArmorRating_Heat>
+					<ComfyTemperatureMin>-2</ComfyTemperatureMin>
+					<ComfyTemperatureMax>3</ComfyTemperatureMax>
+				</statOffsets>
+			</li>
+		</stages>
+	</Pawnmorph.Hediffs.MutationDef>
+	
+	
+</Defs>

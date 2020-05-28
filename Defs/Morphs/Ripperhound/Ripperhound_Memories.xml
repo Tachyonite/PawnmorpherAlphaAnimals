@@ -1,46 +1,46 @@
 <Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Schemas/ThoughtDef.xsd">
     <ThoughtDef ParentName="OutlookMemoryBase">
-		<defName>FeraliskTransformationMemory</defName>
+		<defName>RipperhoundTransformationMemory</defName>
         <stages>
             <li>
                 <label>morphed</label>
-                <description>Lots of people are afraid of spiders, and now I am one!</description>
+                <description>These extra arms make finding clothes a nightmare!</description>
                 <baseMoodEffect>-3</baseMoodEffect>
             </li>
             <li>
                 <label>morphed</label>
-                <description>Spider-me, spider-me, da dada dada, spider-me</description>
+                <description>Rip and tear!</description>
                 <baseMoodEffect>+3</baseMoodEffect>
             </li>
             <li>
                 <label>morphed</label>
-                <description>...I'M scared of spiders and now I am one!</description>
+                <description>I look like a monster! Where are my eyes!?</description>
                 <baseMoodEffect>-5</baseMoodEffect>
             </li>
             <li>
                 <label>morphed</label>
-                <description>I'm kinda cute for a horrendous spider freak!</description>
+                <description>Yeah, try poking my eyes now, jerks!</description>
                 <baseMoodEffect>+1</baseMoodEffect>
             </li>
         </stages>
     </ThoughtDef>
 	
     <ThoughtDef ParentName="OutlookMemoryBase">
-		<defName>FeraliskRevertedMemory</defName>
+		<defName>RipperhoundRevertedMemory</defName>
         <stages>
             <li>
                 <label>reverted</label>
-                <description>Back to a normal number of eyes, and a normal amount of hair!</description>
+                <description>Two arms is all I ever needed.</description>
                 <baseMoodEffect>3</baseMoodEffect>
             </li>
             <li>
                 <label>reverted</label>
-                <description>Spider man no more!? But I liked being a spider man!</description>
+                <description>Nooo! I wanted to keep ripping and tearing!</description>
                 <baseMoodEffect>-3</baseMoodEffect>
             </li>
             <li>
                 <label>reverted</label>
-                <description>Spider man no more!</description>
+                <description>I hated not knowing where my eyes were!</description>
                 <baseMoodEffect>10</baseMoodEffect>
             </li>
             <li>
@@ -54,23 +54,23 @@
 
     <ThoughtDef ParentName="OutlookMemoryBase">
         <durationDays>1</durationDays>
-        <defName>FeraliskEyes</defName>
+        <defName>RipperhoundEyes</defName>
         <stages>
             <li>
-                <label>Spider eyes</label>
-                <description>I was happy with just two eyes!</description>
+                <label>Ripper... eyes?</label>
+                <description>Where are they!?</description>
                 <visible>true</visible>
                 <baseMoodEffect>-1</baseMoodEffect>
             </li>
             <li>
-                <label>Spider eyes</label>
-                <description>I'm a real monster in staring contests now... and in hunting prey.</description>
+                <label>Ripper... eyes?</label>
+                <description>Total immunity to eye gouge attacks!</description>
                 <visible>true</visible>
                 <baseMoodEffect>2</baseMoodEffect>
             </li>
             <li>
-                <label>Spider eyes</label>
-                <description>It's much, MUCH harder to cover my eyes when something horrible happens now. And something horrible happens every day here.</description>
+                <label>Ripper... eyes?</label>
+                <description>My baby blues! Gone!?</description>
                 <visible>true</visible>
                 <baseMoodEffect>-3</baseMoodEffect>
             </li>
@@ -78,23 +78,23 @@
     </ThoughtDef>
     <ThoughtDef ParentName="OutlookMemoryBase">
         <durationDays>1</durationDays>
-        <defName>FeraliskFangs</defName>
+        <defName>RipperhoundFangs</defName>
         <stages>
             <li>
-                <label>Spider fangs</label>
-                <description>I could've had spider-strength, but I got these instead...</description>
+                <label>Ripper maw</label>
+                <description>It's gonna take me years to brush all these!</description>
                 <visible>true</visible>
                 <baseMoodEffect>-1</baseMoodEffect>
             </li>
             <li>
-                <label>Spider fangs</label>
-                <description>My enemies will tremble in fear when they see these babies!</description>
+                <label>Ripper maw</label>
+                <description>All the better to eat you with!</description>
                 <visible>true</visible>
                 <baseMoodEffect>1</baseMoodEffect>
             </li>
             <li>
-                <label>Spider fangs</label>
-                <description>I managed to make two holes in my hand trying to pick my nose. This sucks.</description>
+                <label>Ripper maw</label>
+                <description>Too many teeth! Aaah!</description>
                 <visible>true</visible>
                 <baseMoodEffect>-2</baseMoodEffect>
             </li>
@@ -102,22 +102,22 @@
     </ThoughtDef>
     <ThoughtDef ParentName="OutlookMemoryBase">
         <durationDays>1</durationDays>
-        <defName>FeraliskSkin</defName>
+        <defName>RipperhoundSkin</defName>
         <stages>
             <li>
-                <label>Spider chitin</label>
-                <description>Spider hair is nasty and weird!</description>
+                <label>Ripper hide</label>
+                <description>I had such soft, supple skin!</description>
                 <visible>true</visible>
                 <baseMoodEffect>-1</baseMoodEffect>
             </li>
             <li>
-                <label>Spider chitin</label>
-                <description>Complimentary kevlar!</description>
+                <label>Ripper hide</label>
+                <description>Tough as nails!</description>
                 <visible>true</visible>
                 <baseMoodEffect>1</baseMoodEffect>
             </li>
             <li>
-                <label>Spider chitin</label>
+                <label>Ripper hide</label>
                 <description>Oh god, this is one worse than leprosy!</description>
                 <visible>true</visible>
                 <baseMoodEffect>-2</baseMoodEffect>

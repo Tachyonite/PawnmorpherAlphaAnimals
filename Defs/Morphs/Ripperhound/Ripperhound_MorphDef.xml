@@ -1,0 +1,23 @@
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Schemas/MorphDef.xsd">
+	<Pawnmorph.MorphDef>
+		<defName>RipperhoundMorph</defName>
+		<label>Ripperhoundmorph</label>
+		<description>Ripperhoundmorphs are mossy green arachnoid beings, with a venomous bite and an uncanny ability to produce morphsilk. Just don't ask where it comes from.</description>
+		<race>AA_RipperHound</race>
+		<classification>Animal</classification>
+		<categories>
+			<li>Temperate</li>
+		</categories>
+		<fullTransformation>PawnmorphRipperhoundTF</fullTransformation>
+		<partialTransformation>PawnmorphRipperhoundTFPartial</partialTransformation>
+		<raceSettings>
+			<graphicsSettings>
+				<skinColorOverride>(195,199,182)</skinColorOverride>
+			</graphicsSettings>
+		</raceSettings>
+		<transformSettings>
+			<transformationMemory>RipperhoundTransformationMemory</transformationMemory>
+			<revertedMemory>RipperhoundRevertedMemory</revertedMemory>
+		</transformSettings>
+	</Pawnmorph.MorphDef>
+</Defs>
