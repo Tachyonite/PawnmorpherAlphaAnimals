@@ -1,0 +1,27 @@
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Schemas/MorphDef.xsd">
+	<Pawnmorph.MorphDef ParentName="HerdMorph">
+		<defName>AnimusvoxMorph</defName>
+		<label>voxmorph</label>
+		<description>A humanoid sharing many characteristics with the animus vox, due to heavy mutagen exposure. Too cute to live, too psychic to die.</description>
+		<race>AA_AnimusVox</race>
+		<classification>Canid</classification>
+		<categories>
+			<li>Arid</li>
+			<li>Temperate</li>
+			<li>Tropical</li>
+			<li>Production</li>
+			<li>Canid</li>
+		</categories>
+		<fullTransformation>PawnmorphAnimusvoxTF</fullTransformation>
+		<partialTransformation>PawnmorphAnimusvoxTFPartial</partialTransformation>
+		<raceSettings>
+			<graphicsSettings>
+				<skinColorOverride>(240,240,240)</skinColorOverride>
+			</graphicsSettings>
+		</raceSettings>
+		<transformSettings>
+			<transformationMemory>AnimusvoxTransformationMemory</transformationMemory>
+			<revertedMemory>AnimusvoxRevertedMemory</revertedMemory>
+		</transformSettings>
+	</Pawnmorph.MorphDef>
+</Defs>

@@ -15,6 +15,7 @@
 					<EtherFeraliskFangs>Parts/Feralisk/feralisk_mouth</EtherFeraliskFangs>
 					<EtherJungleliskFangs>Parts/Junglelisk/junglelisk_mouth</EtherJungleliskFangs>
 					<EtherRipperhoundFangs>Parts/Ripperhound/ripperhound_mouth</EtherRipperhoundFangs>
+					<EtherAnimusvoxMuzzle>Parts/Animusvox/animusvox_muzzle</EtherAnimusvoxMuzzle>
 				</hediffGraphics>
 				<hiddenUnderApparelFor>
 					<li>FullHead</li>
@@ -64,6 +65,7 @@
 					<EtherFeraliskFangs>Parts/Feralisk/feralisk_mouth</EtherFeraliskFangs>
 					<EtherJungleliskFangs>Parts/Junglelisk/junglelisk_mouth</EtherJungleliskFangs>
 					<EtherRipperhoundFangs>Parts/Ripperhound/ripperhound_mouth</EtherRipperhoundFangs>
+					<EtherAnimusvoxMuzzle>Parts/Animusvox/animusvox_muzzle</EtherAnimusvoxMuzzle>
 				</hediffGraphics>
 				<hiddenUnderApparelFor>
 					<li>FullHead</li>
@@ -111,6 +113,7 @@
 				<inFrontOfBody>true</inFrontOfBody>
 				<drawForFemale>false</drawForFemale>
 				<hediffGraphics>
+					<EtherAnimusvoxEars>Parts/Animusvox/animusvox_ears</EtherAnimusvoxEars>
 				</hediffGraphics>
 				<offsets>
 					<south>
@@ -170,6 +173,7 @@
 				<inFrontOfBody>true</inFrontOfBody>
 				<drawForMale>false</drawForMale>
 				<hediffGraphics>
+					<EtherAnimusvoxEars>Parts/Animusvox/animusvox_ears</EtherAnimusvoxEars>
 				</hediffGraphics>
 				<layerOffset>0.1</layerOffset>
 				<offsets>
@@ -544,6 +548,7 @@
 				<drawnInBed>false</drawnInBed>
 				<hediffGraphics>
 					<EtherRipperhoundTail>Parts/Ripperhound/ripperhound_tail</EtherRipperhoundTail>
+					<EtherAnimusvoxTail>Parts/Animusvox/animusvox_tail</EtherAnimusvoxTail>
 				</hediffGraphics>
 				<offsets>
 					<south />
