@@ -1,0 +1,320 @@
+<Defs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Schemas/MutationDef.xsd">
+	<Pawnmorph.Hediffs.MutationDef Name="TeratoPart" ParentName="PawnmorphPart" Abstract="true">
+		<classInfluence>TeratoMorph</classInfluence>
+	</Pawnmorph.Hediffs.MutationDef>
+
+	<Pawnmorph.Hediffs.MutationDef ParentName="TeratoPart">
+		<defName>EtherTeratoSkull</defName>
+		<label>facial teratogenesis</label>
+		<description>[PAWN_nameDef]'s head-flesh has begun turning gelatinous and translucent. It's tough to talk and eat with drippy lips, and the whole 'visible skull' thing freaks people out. On the bright side the rubbery flesh is more resistant to punching, and their saliva is full of mutagenic mechanites.</description>
+		<mutationTale>GrewTeratoHead</mutationTale>
+		<mutationMemory>TeratoHead</mutationMemory>
+<stages>
+			<li>
+				<label>unfamiliar</label>
+				<capMods>
+					<li>
+						<capacity>Talking</capacity>
+						<offset>-0.30</offset>
+					</li>
+					<li>
+						<capacity>Eating</capacity>
+						<offset>-0.10</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<SocialImpact>-0.10</SocialImpact>
+					<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+				</statOffsets>
+			</li>
+			<li>
+				<minSeverity>1</minSeverity>
+				<label>adapted</label>
+				<capMods>
+					<li>
+						<capacity>Talking</capacity>
+						<offset>-0.10</offset>
+					</li>
+					<li>
+						<capacity>Eating</capacity>
+						<offset>-0.05</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<SocialImpact>-0.10</SocialImpact>
+					<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+				</statOffsets>
+			</li>
+		</stages>
+
+		<comps>
+			<li Class="HediffCompProperties_VerbGiver">
+				<tools>
+					<li>
+						<label>muta-bite</label>
+						<capacities>
+							<li>MutagenicStab</li>
+						</capacities>
+						<power>6</power>
+						<cooldownTime>2</cooldownTime>
+						<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+						<surpriseAttack>
+							<extraMeleeDamages>
+								<li>
+									<def>Stun</def>
+									<amount>14</amount>
+								</li>
+							</extraMeleeDamages>
+						</surpriseAttack>
+					</li>
+				</tools>
+			</li>
+			<li Class="Pawnmorph.Hediffs.CompProperties_MutationSeverityAdjust">
+				<severityPerDay>0.25</severityPerDay>
+			</li>
+		</comps>
+		<parts>
+			<li>Head</li>
+		</parts>
+	</Pawnmorph.Hediffs.MutationDef>
+
+<Pawnmorph.Hediffs.MutationDef ParentName="TeratoPart">
+		<defName>EtherTeratoEye</defName>
+		<label>mutant eye</label>
+		<description>[PAWN_nameDef]'s eye has been replaced by the same type of eye that now grows in their guts. It works a little better for them than it does for others due to well, being a real part of them.</description>
+		<parts>
+			<li>Eye</li>
+		</parts>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Sight</capacity>
+						<offset>0.2</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<PsychicSensitivity>0.05</PsychicSensitivity>
+				</statOffsets>
+			</li>
+		</stages>
+	</Pawnmorph.Hediffs.MutationDef>
+
+<Pawnmorph.Hediffs.MutationDef ParentName="TeratoPart">
+		<defName>EtherTeratoLeg</defName>
+		<label>mutant leg</label>
+		<description>[PAWN_nameDef]'s leg has been replaced by the same type of limb that now grows in their guts. It works a little better for them than it does for others due to well, being a real part of them.</description>
+		<parts>
+			<li>Leg</li>
+		</parts>
+		<stages>
+			<li>
+				<li>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.05</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<PsychicSensitivity>0.1</PsychicSensitivity>
+					<ToxicSensitivity>0.1</ToxicSensitivity>
+				</statOffsets>
+				</li>
+			</li>
+		</stages>
+	</Pawnmorph.Hediffs.MutationDef>
+
+<Pawnmorph.Hediffs.MutationDef ParentName="TeratoPart">
+		<defName>EtherTeratoArm</defName>
+		<label>mutant arm</label>
+		<description>[PAWN_nameDef]'s leg has been replaced by the same type of limb that now grows in their guts. It works a little better for them than it does for others due to well, being a real part of them.</description>
+		<parts>
+			<li>Leg</li>
+		</parts>
+		<comps>
+      <li Class="HediffCompProperties_VerbGiver">
+        <tools>
+          <li>
+            <label>fist</label>
+            <capacities>
+              <li>Blunt</li>
+            </capacities>
+            <power>8.2</power> <!-- Same as natural fist -->
+            <cooldownTime>2</cooldownTime>
+          </li>
+        </tools>
+      </li>
+    </comps>
+	<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>0.05</offset>
+					</li>
+				</capMods>
+				<statOffsets>
+					<PsychicSensitivity>0.15</PsychicSensitivity>
+					<ToxicSensitivity>0.15</ToxicSensitivity>
+				</statOffsets>
+			</li>
+	</stages>
+	</Pawnmorph.Hediffs.MutationDef>
+
+<Pawnmorph.Hediffs.MutationDef ParentName="TeratoPart">
+		<defName>EtherTeratoBones</defName>
+		<label>teratogenic flesh</label>
+		<description>[PAWN_nameDef]'s abdomen is now a mass of pluripotent stem cells, slowly producing bizarre eyeball transplants.</description>	
+		<parts>
+			<li>Waist</li>
+		</parts>
+		<maxSeverity>1</maxSeverity>
+		<initialSeverity>0.01</initialSeverity>
+		<comps>
+			<li Class="Pawnmorph.HediffCompProperties_Production">
+				<thought>ExoticProduced</thought>
+				<etherBondThought>ExoticProducedBond</etherBondThought>
+				<etherBrokenThought>ExoticProducedBroken</etherBrokenThought>
+				<stages>
+					<li>
+						<daysToProduce>20</daysToProduce>
+						<amount>1</amount>
+						<resource>AA_MutantEye</resource>
+					</li>
+					<li>
+						<daysToProduce>18</daysToProduce>
+						<amount>1</amount>
+						<resource>AA_MutantEye</resource>
+					</li>
+					<li>
+						<daysToProduce>15</daysToProduce>
+						<amount>1</amount>
+						<resource>AA_MutantEye</resource>
+					</li>
+					<li>
+						<daysToProduce>12</daysToProduce>
+						<amount>1</amount>
+						<resource>NutrientPaste</resource>
+						<thought>AA_MutantEye</thought>
+					</li>
+				</stages>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<minSeverity>0</minSeverity>
+				<hungerRateFactor>1.0</hungerRateFactor>
+			</li>
+			<li>
+				<minSeverity>0.3</minSeverity>
+				<hungerRateFactor>1.3</hungerRateFactor>
+				<label>productive</label>
+			</li>
+			<li>
+				<minSeverity>0.6</minSeverity>
+				<hungerRateFactor>1.6</hungerRateFactor>
+				<label>very productive</label>
+			</li>
+			<li>
+				<minSeverity>0.9</minSeverity>
+				<hungerRateFactor>2.0</hungerRateFactor>
+				<label>productive bliss</label>
+				<hediffGivers>
+					<li Class="HediffGiver_RandomDrugEffect">
+						<hediff>CatatonicBreakdown</hediff>
+						<minSeverity>0.50</minSeverity>
+						<baseMtbDays>2</baseMtbDays>
+						<partsToAffect>
+							<li>Brain</li>
+						</partsToAffect>
+					</li>
+				</hediffGivers>
+			</li>
+		</stages>
+	</Pawnmorph.Hediffs.MutationDef>
+	
+    <RulePackDef ParentName="CoveringMutationLogPackBase">
+        <defName>TeratoGrowthLogPack</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>label->mutant flesh</li>
+                <li>bulk_label->coating</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+	<Pawnmorph.Hediffs.MutationDef ParentName="PawnmorphSkinPart">
+		<defName>EtherTeratoLimb</defName>
+		<label>mutant flesh</label>
+		<description>The skin here has become gelatinous and creepy</description>
+		<classInfluence>TeratoMorph</classInfluence>
+		<parts>
+			<li>Torso</li>
+			<li>Head</li>
+			<li>Ear</li>
+			<li>Arm</li>
+			<li>Hand</li>
+			<li>Leg</li>
+			<li>Foot</li>
+			<li>Tail</li>
+		</parts>
+		<mutationLogRulePack>TeratoGrowthLogPack</mutationLogRulePack>
+		<countToAffect>2</countToAffect>
+		<categories>
+			<li>Minor</li>
+		</categories>
+		<comps>
+			<li Class="Pawnmorph.Hediffs.CompProperties_MutationSeverityAdjust">
+				<severityPerDay>0.33</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li Class="Pawnmorph.Hediffs.MutationStage">
+				<labelOverride>shiny skin</labelOverride>
+				<description>The skin here has taken on an oddly slick finish, like the new skin after a wound heals.</description>
+
+				<minSeverity>0</minSeverity>
+				<statOffsets>
+					<ArmorRating_Blunt>0.005</ArmorRating_Blunt>
+				</statOffsets>
+			</li>
+			<li Class="Pawnmorph.Hediffs.MutationStage">
+				<labelOverride>slimy skin</labelOverride>
+				<description>The skin here has started to become what can only be called 'goopy'.</description>
+				<minSeverity>0.2</minSeverity>
+				<statOffsets>
+					<ArmorRating_Blunt>0.01</ArmorRating_Blunt>
+				</statOffsets>
+			</li>
+
+			<li Class="Pawnmorph.Hediffs.MutationStage">
+				<labelOverride>translucent skin</labelOverride>
+				<description>The gelatinous nature of the skin has sunk deeper in, and now veins and muscle can be seen clearly within.</description>
+				<minSeverity>0.4</minSeverity>
+				<statOffsets>
+					<ArmorRating_Blunt>0.015</ArmorRating_Blunt>
+				</statOffsets>
+			</li>
+			<li Class="Pawnmorph.Hediffs.MutationStage">
+				<labelOverride>gelatinous skin</labelOverride>
+				<description>Now even the veins and muscle have begun to merge with the gelatinous mass, leaving only bone visibly distinct.</description>
+
+				<minSeverity>0.6</minSeverity>
+				<statOffsets>
+					<ArmorRating_Blunt>0.025</ArmorRating_Blunt>
+				</statOffsets>
+			</li>
+			<li Class="Pawnmorph.Hediffs.MutationStage">
+				<labelOverride>epidermal teratogenesis</labelOverride>
+				<description>Just extremely goopy. So goopy.</description>
+				<minSeverity>0.8</minSeverity>
+				<statOffsets>
+					<ArmorRating_Blunt>0.04</ArmorRating_Blunt>
+				</statOffsets>
+			</li>
+		</stages>
+	</Pawnmorph.Hediffs.MutationDef>
+	
+	
+</Defs>

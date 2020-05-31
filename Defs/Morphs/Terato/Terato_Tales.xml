@@ -1,0 +1,30 @@
+﻿<Defs>
+	<TaleDef ParentName="MutationTaleBase">
+		<defName>StartsGrowingTeratoHide</defName>
+		<label>started growing Terato hide</label>
+		<rulePack>
+			<rulesStrings>
+				<li>tale_noun->[PAWN_nameDef] skin leaking mucus</li>
+				<li>tale_noun->shiny skin spreading over [PAWN_nameDef]'s body</li>
+				<li>image->[PAWN_nameFull] begins trying to wipe off the spreading slime [circumstance_group]</li>
+				<li>image->[PAWN_nameFull] begins to feel very moist [circumstance_group]</li>
+				<li>circumstance_phrase->as someone begins poking [PAWN_possessive] rubbery skin</li>
+				<li>circumstance_phrase->as someone reaches for a washcloth</li>
+				<li>desc_sentence->[PAWN_pronoun] begins wiping at [PAWN_possessive] damp skin.</li>
+			</rulesStrings>
+		</rulePack>
+	</TaleDef>
+	
+	<TaleDef ParentName="MuzzleTaleBase">
+		<defName>GrewTeratoHead</defName>
+		<label>grew Terato head</label>
+		<rulePack>
+			<rulesStrings>
+				<li>tale_noun->[PAWN_nameDef] suffered facial dissolution</li>
+				<li>tale_noun->[PAWN_nameDef]'s face seemingly melting</li>
+				<li>image->[PAWN_nameDef] has their face reshape into a terrifying, skeletal visage[circumstance_group]</li>
+				<li>desc_sentence->[PAWN_nameDef] hisses, spraying mutagenic slime at everyone.</li>
+			</rulesStrings>
+		</rulePack>
+	</TaleDef>
+</Defs>
