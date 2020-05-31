@@ -109,7 +109,6 @@
 		</parts>
 		<stages>
 			<li>
-				<li>
 				<capMods>
 					<li>
 						<capacity>Moving</capacity>
@@ -120,7 +119,6 @@
 					<PsychicSensitivity>0.1</PsychicSensitivity>
 					<ToxicSensitivity>0.1</ToxicSensitivity>
 				</statOffsets>
-				</li>
 			</li>
 		</stages>
 	</Pawnmorph.Hediffs.MutationDef>
