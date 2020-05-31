@@ -195,8 +195,8 @@
 					<li>
 						<daysToProduce>12</daysToProduce>
 						<amount>1</amount>
-						<resource>NutrientPaste</resource>
-						<thought>AA_MutantEye</thought>
+						<resource>AA_MutantEye</resource>
+						<thought>ProductiveBliss</thought>
 					</li>
 				</stages>
 			</li>
